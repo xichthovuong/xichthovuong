@@ -3,15 +3,9 @@
 <head>
 	<title>Top 6 interesting things</title>
 	<style type="text/css">
-		#pic1 {
-			float: left;
-		}
-		#pic2 {
-			float: left;
-		}
-		#part {
-			float: right;
-		}
+	#pic1 {
+		padding-left: 15%;
+	}
 	</style>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,12 +21,13 @@
 			<div class="col-xs-1">Style</div>
 		</div>
 	</div>
-	<div>
-		<figure id="pic1"><img src="NarutoAnime.jpg" width="95%" height="100%"></figure>
-		<figure id="pic2"><img src="AvengerInWar.jpg" width="20%" height="20%"></figure>
-		<div id="part">
-			<figure id="pic3"><img src="Vpop.jpg" width="10%" height="10%"></figure>
-			<figure id="pic4"><img src="KoreanMovie.jpg" width="10%" height="10%"></figure>
+	<br>
+	<div class="row">
+		<div class="col-md-5 col-xs-5" id="pic1"><img src="NarutoAnime.jpg" alt="Anime scope" width="100%" height="320px"></div>
+		<div class="col-md-3 col-xs-3" id="pic2"><img src="AvengerInWar.jpg" alt="Avenger Movie" width="100%" height="320px"></div>
+		<div id="block" class="col-md-2" class="col-md-2">
+			<figure id="pic3"><img src="Vpop.jpg" alt="Top Vpop" width="100%" height="160px"></figure>
+			<figure id="pic4"><img src="KoreanMovie.jpg" alt="Top Korean Movie" width="100%" height="160px"></figure>
 		</div>
 	</div>
 </body>

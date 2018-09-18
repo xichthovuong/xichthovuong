@@ -1,0 +1,47 @@
+#head {
+    display: grid;
+    grid-template-rows: 15vh;
+    background-color: #efffe9;
+}
+#Logo {
+    padding-left: 10%;
+    padding-top: 1%;
+}
+#cate {
+    padding-left: 7%;
+    background-color: #d1ef9f;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 30vw 15vw;
+    grid-column-gap: 50vw;
+}
+#SixCate {
+    display: grid;
+    grid-template-columns: 9vw 5vw 4vw 5vw 5vw 5vw;
+    font-size: 150%;
+    position: relative;
+    padding-top: 1%;
+}
+#Social {
+    display: grid;
+    grid-template-columns: 2vw 2vw 2vw;
+    font-size: 150%;
+    position: relative;
+    padding-top: 3%;
+}
+#Introduction {
+    background-image: url(Intro.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 60vh;
+}
+#text {
+    color: #d1ef9f;
+    font-size: 600%;
+    display: block;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-transform: uppercase;
+}

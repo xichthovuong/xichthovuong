@@ -29,9 +29,11 @@ a:visited, a:link {
     background-color: #eae0db;
 }
 #Logo {
+    position: absolute;
+    top: 30%;
+}
+figure {
     position: relative;
-    padding-top: 30%;
-    margin-top: 30%;
 }
 #head {
     display: grid;

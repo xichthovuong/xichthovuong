@@ -1,0 +1,52 @@
+#Logo, body {
+    background-color: #efffe9;
+}
+#Introduction {
+    background-image: url(Intro.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 60vh;
+}
+#text {
+    color: #d1ef9f;
+    font-size: 600%;
+    display: block;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+#small-text{
+    color:  #d1ef9f;
+    font-size: 600%;
+    display: block;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#cate {
+    background-color:  #d1ef9f;
+    font-size: 180%;
+}
+#CultureCate {background-color: #d1ef9f;}
+#MangaCate {background-color: #efffe9;}
+.card-body {
+    text-align: center;
+    line-height: 200%;
+}
+.card-title {
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#CateName{
+    text-align: center;
+    text-transform: uppercase;
+}
+.carousel-caption {
+    color: white;
+    opacity: 1.0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 200%;
+}

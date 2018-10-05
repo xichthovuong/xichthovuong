@@ -1,0 +1,48 @@
+#Logo, #head {
+    background-color: #efffe9;
+}
+#Introduction {
+    background-image: url(Intro.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 60vh;
+}
+@font-face {
+    font-family: TheSixNatures;
+    src: url(FontDownload/BLATANT.TTF);
+}
+@media screen and (min-width: 600px) {
+    #cate, #Top {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+#text {
+    color: #d1ef9f;
+    font-size: 600%;
+    display: block;
+    margin: auto;
+    font-family: TheSixNatures;
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: Category;
+    src: url(FontDownload/TanglewoodTalesNF.ttf);
+}
+#small-text{
+    color:  #d1ef9f;
+    font-size: 600%;
+    display: block;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#cate {
+    background-color:  #d1ef9f;
+    font-size: 250%;
+    font-family: Category;
+    color: black;
+}
+#cate > a:link, a:visited, a:hover {color: black;}
+#title {font-size: 200%;}

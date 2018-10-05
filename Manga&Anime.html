@@ -1,65 +1,97 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Manga&Anime - The Six Natures</title>
-    <link rel="stylesheet" type="text/css" href="HeadNav.css">
-    <style>
-        #container {
-            display: grid;
-            grid-template-rows: 24vh 24vh 24vh 24vh 24vh 24vh;
-            grid-template-columns: 20vw 20vw;
-            grid-column-gap: 1%; 
-            grid-row-gap: 2%;
-            padding-left: 20vw;
-            padding-right: 20vw;
-        }
-        #title {
-            padding-left: 20vw;
-        }
-    </style>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Manga & Anime - The Six Natures</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="Header.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="HeaderTop6.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Manga.css">
 </head>
 <body>
     <div id="head">
-        <div id="gate">
-            <img src="Gate4.png" alt="The gate of the website" width="90%" height="150vh" style="background-color: #F5F5DC;">
+        <div class="container-fluid" id="Top">
+            <nav class="navbar navbar-expand-sm" id="Logo">
+                <a class="navbar-brand" href="index.html">
+                    <img src="LogoMain.png" alt="Interesting things in Japan" style="width:10%;">
+                </a>
+            </nav>
         </div>
-        <div id="WebName">
-            <figure>
-                <img src="Logo.png" alt="Logo of the Six Natures Web Page" width="100%" height="400vh">
-            </figure>
+        <div id="cate" class="container-fluid">
+            <nav class="navbar navbar-expand-sm" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Manga&Anime.html">Anime&Manga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Music</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div id="SocialApp">
-            <figure><img src="facebook.png" alt="Facebook Logo" height="50vh" width="100%"></figure>
-            <figure><img src="instagram2.png" alt="Instagram Logo" height="50vh" width="100%"></figure>
-            <figure><img src="line.png" alt="Line social app Logo" height="50vh" width="100%"></figure>
+        <div id="Introduction">
+            <p id="text"> 
+                The<br>SixNatures<br>
+            </p>
+            <caption id="small-text">Creative News for All Readers</caption>
         </div>
-        <div id="search">
-            <i class="fa fa-search"></i>
-        </div>
-    </div>
-    <br>
-    <div class="catego">
-        <div id="cat1"><strong><a href="Manga&Anime.html">Manga&Anime</a></strong></div>
-        <div id="cat2"><strong><a href="Movie.html">Movie</strong></a></div>
-        <div id="cat3"><strong>Music</strong></div>
-        <div id="cat4"><strong><a href="Travel.html">Travel</strong></a></div>
-        <div id="cat5"><strong><a href="Culture.html">Culture</a></strong></div>
-        <div id="cat6"><strong>Education</strong></div>
-        <div id="cat7"><strong>Blog</strong></div>
-        <div id="cat8"><strong>Q&A</strong></div>
     </div>
     <br />
-    <div id="title">
-        <h5>All Posts in Manga&Anime Section</h5>
+    <div id="content">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-body" id="title">All Posts in Manga&Anime Section</div>
+            </div>
+        </div>
+        <div class="container" id="posts">
+            <div class="panel panel-default">
+                <div class="panel-body" id="AnimeRes">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="Restaurants.jpg" class="media-object" alt="Joseph's Restaurant" height="50%" style="width:100px;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Top 6 Amazing Restaurants in Anime</h3>
+                            <p> The Anime world contains a lot of amazing things, including the cuisine culture that isn’t worse than that in the real world.
+                                Let’s together explore the top six amazing restaurants in Anime!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <br />
-    <div id="container">
+    <!--<div id="container">
         <div>
             <a href="Top6AmazingRes.html"><img src="Restaurants.jpg" alt="Joseph's Restaurant" width="100%" /></a>
         </div>
@@ -154,6 +186,6 @@
             </section>
             </a>
         </div>
-    </div>
+    </div>-->
 </body>
 </html>

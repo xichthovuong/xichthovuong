@@ -1,21 +1,53 @@
 #Logo, body {
     background-color: #efffe9;
 }
-#Introduction {
-    background-image: url(Intro.png);
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-size: 100% 100%;
-    display: grid;
-    grid-template-rows: 60vh;
+@media only screen and (min-width: 600px) {
+    #Introduction {
+        background-image: url(Intro.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 100% 100%;
+        display: grid;
+        grid-template-rows: 80vh;
+    }
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 10vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #Introduction {
+        background-image: url(IntroMobile.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 100% 100%;
+        display: grid;
+        grid-template-rows: 40vh;
+    }
+}
+@media only screen and (min-width: 800px) {
+    #NavSmall {display: none;}
+    #NavLarge {display: block;}
+}
+@media only screen and (max-width: 800px) {
+    #NavSmall {display: block;}
+    #NavLarge {display: none;}
+}
+@font-face {
+    font-family: TheSixNatures;
+    src: url(FontDownload/BLATANT.TTF);
 }
 #text {
     color: #d1ef9f;
     font-size: 600%;
     display: block;
     margin: auto;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: TheSixNatures;
     text-transform: uppercase;
+}
+@font-face {
+    font-family: Category;
+    src: url(FontDownload/TanglewoodTalesNF.ttf);
 }
 #small-text{
     color:  #d1ef9f;
@@ -26,8 +58,12 @@
 }
 #cate {
     background-color:  #d1ef9f;
-    font-size: 180%;
+    font-size: 300%;
+    font-family: Category;
+    color: black;
 }
+#cate > a:link, a:visited, a:hover {color: black;}
+.navbar-nav2 {list-style-type: none;}
 #CultureCate {background-color: #d1ef9f;}
 #MangaCate {background-color: #efffe9;}
 .card-body {

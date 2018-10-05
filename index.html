@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="HeaderTop6.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -24,6 +23,22 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="OutLayIndex.css">
+    <!--<script>
+        $(document).ready(function() {
+            if (window.screen.width >= 600) {
+                $("#cate").click(function() {
+                    $("NavLarge").show();
+                    $("NavSmall").remove();
+                });
+            }
+            else {
+                $("#cate").click(function() {
+                    $("NavLarge").remove();
+                    $("NavSmall").show();
+                });
+            }
+        });
+    </script>-->
 </head>
 <body>
     <div class="container-fluid">
@@ -33,35 +48,70 @@
             </a>
         </nav>
     </div>
+    <!-- Category -->
+    <!-- Change the code below for SOCIAL MEDIA -->
     <div id="cate" class="container-fluid">
-        <nav class="navbar navbar-expand-sm" id="nav">
+        <nav class="navbar navbar-expand-sm" id="NavLarge">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="Manga&Anime.html">Anime&Manga</a>
+                    <a class="nav-link" href="Manga&Anime.html">Anime&Manga &emsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Books</a>
+                    <a class="nav-link" href="#">Education &emsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Style</a>
+                    <a class="nav-link" href="#">Style &emsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Culture</a>
+                    <a class="nav-link" href="#">Culture &emsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Movies</a>
+                    <a class="nav-link" href="#">Movies &emsp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Music</a>
+                    <a class="nav-link" href="#">Music &emsp;</a>
                 </li>
             </ul>
         </nav>
+        <div id="NavSmall">
+            <button type="button" data-toggle="collapse" data-target=".navbar-nav2"><i class="fa fa-bars"></i></button>
+            <nav class="navbar navbar-expand-sm">
+                <ul class="navbar-nav2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Manga&Anime.html">Anime&Manga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Music</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            <!--<div class="row">
+                <div class="float-right">
+                    <ul class="navbar-nav justify-content-end" id="Social">
+                        <li id="facebook" class="nav-item"><i class="fa fa-facebook"></i></li>
+                        <li id="twitter" class="nav-item"><i class="fa fa-twitter"></i></li>
+                        <li id="linkedin" class="nav-item"><i class="fa fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>-->
     </div>
     <div id="Introduction">
         <p id="text"> 
             The<br>SixNatures<br>
         </p>
-        <caption id="small-text">Creative News for All Readers</caption>
     </div>
     <div id="content">
         <!-- Culture as Cate 1-->
@@ -177,5 +227,6 @@
             </div>
         </div>
     </div>
+    <!-- sepcify the width of the columns 8 : 4-->
 </body>
 </html>

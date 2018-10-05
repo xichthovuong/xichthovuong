@@ -1,37 +1,47 @@
 #Logo, body {
     background-color: #efffe9;
 }
-@media only screen and (min-width: 600px) {
+.jumbotron {
+    display: grid;
+    grid-template-rows: 1vh;
+}
+@media only screen and (min-width: 800px) {
+    #NavSmall {display: none;}
+    #NavLarge {display: block;}
     #Introduction {
-        background-image: url(Intro.png);
+        background-image: url(MainIndexPic/HeadPic/Intro.png);
         background-repeat: no-repeat;
         overflow: hidden;
         background-size: 100% 100%;
         display: grid;
-        grid-template-rows: 80vh;
+        grid-template-rows: 88vh;
     }
     .container-fluid {
         padding-left: 5vw;
         padding-right: 5vw;
     }
+    #text {
+        font-size: 900%;
+        padding-left: 12vw;
+        padding-top: 12vh;
+    }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+    #NavSmall {display: block;}
+    #NavLarge {display: none;}
     #Introduction {
-        background-image: url(IntroMobile.png);
+        background-image: url(MainIndexPic/HeadPic/IntroMobile.png);
         background-repeat: no-repeat;
         overflow: hidden;
         background-size: 100% 100%;
         display: grid;
         grid-template-rows: 40vh;
     }
-}
-@media only screen and (min-width: 800px) {
-    #NavSmall {display: none;}
-    #NavLarge {display: block;}
-}
-@media only screen and (max-width: 800px) {
-    #NavSmall {display: block;}
-    #NavLarge {display: none;}
+    #text {
+        font-size: 400%;
+        padding-left: 12vw;
+        padding-top: 12vh;
+    }
 }
 @font-face {
     font-family: TheSixNatures;
@@ -39,9 +49,6 @@
 }
 #text {
     color: #d1ef9f;
-    font-size: 600%;
-    display: block;
-    margin: auto;
     font-family: TheSixNatures;
     text-transform: uppercase;
 }
@@ -58,11 +65,14 @@
 }
 #cate {
     background-color:  #d1ef9f;
-    font-size: 300%;
+    font-size: 250%;
     font-family: Category;
     color: black;
 }
-#cate > a:link, a:visited, a:hover {color: black;}
+#cate > a:link, a:visited {color: black;}
+#cate > a:hover, a:active {
+    color: #7cc400;
+}
 .navbar-nav2 {list-style-type: none;}
 #CultureCate {background-color: #d1ef9f;}
 #MangaCate {background-color: #efffe9;}

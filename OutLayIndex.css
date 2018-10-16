@@ -1,19 +1,15 @@
 #Logo, body {
     background-color: #efffe9;
 }
-.jumbotron {
-    display: grid;
-    grid-template-rows: 1vh;
-}
 
 @media only screen and (min-width: 960px) {
     #NavSmall {
         display: none;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
     #NavLarge {
         display: block;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/Intro.png);
@@ -37,11 +33,11 @@
 @media only screen and (max-width: 960px) {
     #NavSmall {
         display: none;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
     #NavLarge {
         display: block;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/Intro.png);
@@ -65,11 +61,11 @@
 @media only screen and (max-width: 600px) {
     #NavSmall {
         display: block;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
     #NavLarge {
         display: none;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/IntroMobile.png);
@@ -87,16 +83,17 @@
 }
 @font-face {
     font-family: TheSixNatures;
-    src: url(FontDownload/BLATANT.TTF);
+    src: url(FontDownload/Assistant-Bold.otf);
 }
 #text {
     color: #d1ef9f;
     font-family: TheSixNatures;
     text-transform: uppercase;
+    font-weight: bold;
 }
 @font-face {
     font-family: Category;
-    src: url(FontDownload/TanglewoodTalesNF.ttf);
+    src: url(FontDownload/Aaargh.ttf);
 }
 #small-text{
     color:  #d1ef9f;
@@ -109,6 +106,7 @@
     background-color:  #d1ef9f;
     font-size: 250%;
     font-family: Category;
+    font-weight: bold;
     color: black;
 }
 #cate > a:link, a:visited {color: black;}

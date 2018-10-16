@@ -24,7 +24,8 @@
         padding-right: 5vw;
     }
     #text {
-        font-size: 900%;
+        font-size: 1500%;
+        line-height: 100px;
         padding-left: 12vw;
         padding-top: 12vh;
     }
@@ -83,7 +84,7 @@
 }
 @font-face {
     font-family: TheSixNatures;
-    src: url(FontDownload/Assistant-Bold.otf);
+    src: url(FontDownload/PainttheSky-Regular.otf);
 }
 #text {
     color: #d1ef9f;

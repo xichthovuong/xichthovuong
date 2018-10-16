@@ -5,9 +5,16 @@
     display: grid;
     grid-template-rows: 1vh;
 }
-@media only screen and (min-width: 800px) {
-    #NavSmall {display: none;}
-    #NavLarge {display: block;}
+
+@media only screen and (min-width: 960px) {
+    #NavSmall {
+        display: none;
+        padding-top: 3vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 3vh;
+    }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/Intro.png);
         background-repeat: no-repeat;
@@ -26,9 +33,44 @@
         padding-top: 12vh;
     }
 }
-@media only screen and (max-width: 800px) {
-    #NavSmall {display: block;}
-    #NavLarge {display: none;}
+
+@media only screen and (max-width: 960px) {
+    #NavSmall {
+        display: none;
+        padding-top: 3vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 3vh;
+    }
+    #Introduction {
+        background-image: url(MainIndexPic/HeadPic/Intro.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 100% 100%;
+        display: grid;
+        grid-template-rows: 88vh;
+    }
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #text {
+        font-size: 900%;
+        padding-left: 12vw;
+        padding-top: 12vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #NavSmall {
+        display: block;
+        padding-top: 3vh;
+    }
+    #NavLarge {
+        display: none;
+        padding-top: 3vh;
+    }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/IntroMobile.png);
         background-repeat: no-repeat;

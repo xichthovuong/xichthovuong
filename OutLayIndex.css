@@ -10,12 +10,12 @@
 .nav {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 80%;
     transform: translate(0, -50%);
 }
 .fa {
-    font-size: 350%;
+    font-size: 300%;
 }
 
 @media only screen and (min-width: 960px) {
@@ -40,10 +40,11 @@
         padding-right: 5vw;
     }
     #text {
-        font-size: 1500%;
+        font-size: 900%;
         line-height: 100px;
         padding-left: 12vw;
         padding-top: 12vh;
+        font-weight: bold;
     }
 }
 
@@ -100,7 +101,7 @@
 }
 @font-face {
     font-family: TheSixNatures;
-    src: url(FontDownload/PainttheSky-Regular.otf);
+    src: url(FontDownload/3Dumb.ttf);
 }
 #text {
     color: #d1ef9f;

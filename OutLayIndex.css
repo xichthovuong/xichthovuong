@@ -1,15 +1,31 @@
-#Logo, body {
+#Header, body {
     background-color: #efffe9;
+}
+#Header {
+    position: relative;
+}
+.navbar {
+    height: 50px;
+}
+.nav {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(0, -50%);
+}
+.fa {
+    font-size: 350%;
 }
 
 @media only screen and (min-width: 960px) {
     #NavSmall {
         display: none;
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
     #NavLarge {
         display: block;
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/Intro.png);
@@ -34,11 +50,11 @@
 @media only screen and (max-width: 960px) {
     #NavSmall {
         display: none;
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
     #NavLarge {
         display: block;
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/Intro.png);
@@ -62,11 +78,11 @@
 @media only screen and (max-width: 600px) {
     #NavSmall {
         display: block;
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
     #NavLarge {
         display: none;
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/IntroMobile.png);

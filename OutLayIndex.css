@@ -1,7 +1,7 @@
 #Header, body {
     background-color: #efffe9;
 }
-#Header {
+#Header, #Introduction {
     position: relative;
 }
 .navbar {
@@ -10,7 +10,7 @@
 .nav {
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 80%;
     transform: translate(0, -50%);
 }
@@ -27,17 +27,18 @@
         display: block;
         padding-top: 1vh;
     }
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
     #Introduction {
         background-image: url(MainIndexPic/HeadPic/Intro.png);
         background-repeat: no-repeat;
         overflow: hidden;
         background-size: 100% 100%;
-        display: grid;
-        grid-template-rows: 88vh;
-    }
-    .container-fluid {
-        padding-left: 5vw;
-        padding-right: 5vw;
+        height: 800px;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     #text {
         font-size: 900%;
@@ -46,6 +47,8 @@
         padding-top: 12vh;
         font-weight: bold;
     }
+    .card {height: 500px;}
+    .item {height: 600px;}
 }
 
 @media only screen and (max-width: 960px) {

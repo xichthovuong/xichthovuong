@@ -66,7 +66,7 @@
         opacity: 1;
         padding-left: 0%;
         padding-right: 0%;
-        object-fit: cover;
+        object-fit: cover;   /* CSS keyword for IMAGES */
         height: 650px;
     }
     #text {

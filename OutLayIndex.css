@@ -62,6 +62,8 @@
         opacity: 1;
         padding-left: 0%;
         padding-right: 0%;
+        object-fit: cover;
+        height: 700px;
     }
     #text {
         position: absolute;

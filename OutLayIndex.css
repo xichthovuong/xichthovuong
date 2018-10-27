@@ -8,16 +8,6 @@
 .navbar {
     height: 50px;
 }
-.nav {
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 80%;
-    transform: translate(0, -50%);
-}
-.fa {
-    font-size: 300%;
-}
 /* Good way here */
 @font-face {
     font-family: TheSixNatures;
@@ -57,13 +47,24 @@
         padding-left: 5vw;
         padding-right: 5vw;
     }
+    /* Social Media CSS */
+    .fa {
+        font-size: 250%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        transform: translate(0, -50%);
+    }
     /* Edit the picture and "The Sixnatures" word of header */
     #PicHead {
         opacity: 1;
         padding-left: 0%;
         padding-right: 0%;
         object-fit: cover;
-        height: 700px;
+        height: 650px;
     }
     #text {
         position: absolute;

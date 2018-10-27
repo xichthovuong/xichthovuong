@@ -96,6 +96,13 @@
     #StyleArt {padding: 20% 20% 0% 25%;}
     #BriefStyle, #ImageStyle {padding: 0 0 0 0;}
     #StyleArticle {font-weight: bold; text-transform: uppercase; font-size: 300%; font-family: Article;}
+    /* Movie Content */
+    .card-title {font-weight: bold; text-transform: uppercase; font-size: 300%; font-family: Article;}
+    #MovieArt {padding-top: 10%;}
+    #MoviesCate {background-color: #efffe9;}
+    #Section1, #Section2, #Section3 {padding-left: 15vw; padding-right: 15vw;}
+    /* Music Content */
+    #MusicCate {background-color: #7cc400;}
 }
 
 /* medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/

@@ -22,25 +22,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <!--<style type="text/css">
-        #Section2, #Section3 {display: none;}
-    </style>-->
+    <style type="text/css">
+        .MovieCardDeck {display: none;}
+    </style>
     <script>
         $(document).ready(function(){
             $("#Button1").click(function(){
                 $("#Section1").show();
                 $("#Section2").hide();
                 $("#Section3").hide();
+                $("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");
             });
             $("#Button2").click(function(){
                 $("#Section1").hide();
                 $("#Section2").show();
                 $("#Section3").hide();
+                $("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");
             });
             $("#Button3").click(function(){
                 $("#Section1").hide();
                 $("#Section2").hide();
                 $("#Section3").show();
+                $("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");
             });
         });
     </script>
@@ -64,22 +67,22 @@
     <div id="cate" class="container-fluid">
         <nav class="navbar navbar-expand-sm" id="NavLarge">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item" id="category">
                     <a class="nav-link" href="Manga&Anime.html">Anime&Manga&emsp;</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="category">
                     <a class="nav-link" href="#">Education &emsp;</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="category">
                     <a class="nav-link" href="#">Style &emsp;</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="category">
                     <a class="nav-link" href="#">Culture &emsp;</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="category">
                     <a class="nav-link" href="#">Movies &emsp;</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="category">
                     <a class="nav-link" href="#">Music &emsp;</a>
                 </li>
             </ul>
@@ -122,7 +125,7 @@
                 <br><br><br><br>
                 <div class="card-deck">
                     <div class="card">
-                        <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseFood.jpg" alt="Japanese Food" height="40%">
+                        <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseFood.jpg" alt="Japanese Food" height="50%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         <br>
                         <div class="card-body">
                             <h4 class="card-title">Top 6 Expensive Japanese Food</h4>
@@ -131,7 +134,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseCulture.jpg" alt="Japanese Festival" height="40%">
+                        <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseCulture.jpg" alt="Japanese Festival" height="50%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         <br>
                         <div class="card-body">
                             <h4 class="card-title">Top 6 Japanese Festivals</h4>
@@ -140,7 +143,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseMonster.jpg" alt="Japanese Monsters" height="40%">
+                        <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseMonster.jpg" alt="Japanese Monsters" height="50%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         <br>
                         <div class="card-body">
                             <h4 class="card-title">Top 6 Monsters Appeared in Japanese Culture</h4>
@@ -168,42 +171,42 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="MainIndexPic/MangaPic/Restaurants.jpg" alt="Japanese Restaurants" width="100%" height="100%">
+                            <img src="MainIndexPic/MangaPic/Restaurants.jpg" alt="Japanese Restaurants" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Top 6 Amazing Restaurants in Anime</h2>
                                 <p>Attractive Taste!</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MangaPic/BroCon.png" alt="Japanese Brocon And Siscon" width="100%" height="100%">
+                            <img src="MainIndexPic/MangaPic/BroCon.png" alt="Japanese Brocon And Siscon" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Top 6 Brocon and Siscon</h2>
                                 <p>Incredibly Compatible!</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MangaPic/ComeBack.png" alt="Japanese Come-backs Manga-Anime" width="100%" height="100%">
+                            <img src="MainIndexPic/MangaPic/ComeBack.png" alt="Japanese Come-backs Manga-Anime" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Top 6 Come-backs Of Celebrity</h2>
                                 <p>Exceeding Expectations</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MangaPic/DragonBall.jpg" alt="Japanese DragonBall Series" width="100%" height="100%">
+                            <img src="MainIndexPic/MangaPic/DragonBall.jpg" alt="Japanese DragonBall Series" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Top 6 Difference Between Dragon Ball Z Manga And Anime</h2>
                                 <p>Appealing Discrepancy!</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MangaPic/Introvert.png" alt="Japanese Introverted Manga - Anime" width="100%" height="100%">
+                            <img src="MainIndexPic/MangaPic/Introvert.png" alt="Japanese Introverted Manga - Anime" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                                 <div class="carousel-caption">
                                     <h2>Top 6 Introverted Characters In Anime</h2>
                                     <p>Surprising Factors!</p>
                                 </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MangaPic/Crossdressing.jpg" alt="Japanese Crossdressing Manga-Anime" width="100%" height="100%">
+                            <img src="MainIndexPic/MangaPic/Crossdressing.jpg" alt="Japanese Crossdressing Manga-Anime" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Top 6 Crossdressing Anime</h2>
                                 <p>Awesome</p>
@@ -232,7 +235,7 @@
                     <!--Large Size Progress-->
                     <div class="row" id="Edu1">
                         <div class="col">
-                            <img src="MainIndexPic/EducationHomepage/EducationLogo.png" alt="Education in computer" width="100%" height="400px" style="opacity: 1;">
+                            <img src="MainIndexPic/EducationHomepage/EducationLogo.png" alt="Education in computer" width="100%" height="400px" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="col" id="BriefEdu">
                             <h3 id="EduArticle">Top 6 Japanese Universities</h3>
@@ -242,7 +245,7 @@
                     <br><br><br><br>
                     <div class="row" id="Edu2">
                         <div class="col">
-                            <img src="MainIndexPic/EducationHomepage/EducationBook.png" alt="Education in book" width="100%" height="400px" style="opacity: 1;">
+                            <img src="MainIndexPic/EducationHomepage/EducationBook.png" alt="Education in book" width="100%" height="400px" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="col" id="BriefEdu">
                             <h3 id="EduArticle">Top 6 Japanese Physics Book</h3>
@@ -252,7 +255,7 @@
                     <br><br><br><br>
                     <div class="row" id="Edu3">
                         <div class="col">
-                            <img src="MainIndexPic/EducationHomepage/EducationTest.png" alt="Education in Test Room" width="100%" height="400px" style="opacity: 1;">
+                            <img src="MainIndexPic/EducationHomepage/EducationTest.png" alt="Education in Test Room" width="100%" height="400px" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="col" id="BriefEdu">
                             <h3 id="EduArticle">Top 6 Crazy Subject Test</h3>
@@ -270,7 +273,7 @@
                     <!-- Large Size Process -->
                     <div class="row no-gutters" id="Style1">
                         <div class="col" id="ImageStyle">
-                            <img src="MainIndexPic/StyleHomepage/DressStyle.png" alt="Style in Dress" width="100%" height="550px" style="opacity: 1; object-fit: cover;">
+                            <img src="MainIndexPic/StyleHomepage/DressStyle.png" alt="Style in Dress" width="100%" height="550px" sclass="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="col" id="BriefStyle">
                             <article id="StyleArt">
@@ -288,7 +291,7 @@
                             </article>
                         </div>
                         <div class="col" id="ImageStyle">
-                            <img src="MainIndexPic/StyleHomepage/RoomStyle.png" alt="Style in Room" width="100%" height="550px" style="opacity: 1; object-fit: cover;">
+                            <img src="MainIndexPic/StyleHomepage/RoomStyle.png" alt="Style in Room" width="100%" height="550px" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
                 </div>
@@ -307,7 +310,7 @@
                                 <br><br><br>
                                 <p class="card-text">Attractive</p>
                             </div>
-                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/DeathNoteDetective.png" alt="Japanese Detective Movie DeathNote" height="60%">
+                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/DeathNoteDetective.png" alt="Japanese Detective Movie DeathNote" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
@@ -315,17 +318,17 @@
                                 <br><br><br>
                                 <p class="card-text">Unforgettable</p>
                             </div>
-                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/OldBoyMindbending.png" alt="Japanese Mindbending Movie Oldboy" height="60%">
+                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/OldBoyMindbending.png" alt="Japanese Mindbending Movie Oldboy" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
-                    <div class="card-deck" id="Section2">
+                    <div class="card-deck MovieCardDeck" id="Section2">
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
                                 <h4 class="card-title" id="MovieArt">Top 6 Japanese Romantic Movie</h4>
                                 <br><br><br>
                                 <p class="card-text">Super Sweet</p>
                             </div>
-                        <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/TaiyouRomantic.png" alt="Japanese Romantic Movie Taiyou" height="60%">
+                        <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/TaiyouRomantic.png" alt="Japanese Romantic Movie Taiyou" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
@@ -333,17 +336,17 @@
                                 <br><br><br>
                                 <p class="card-text">Informative</p>
                             </div>
-                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/DocumentaryTheCove.png" alt="Japanese Documentary Movie The Cove" height="60%">
+                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/DocumentaryTheCove.png" alt="Japanese Documentary Movie The Cove" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
-                    <div class="card-deck" id="Section3">
+                    <div class="card-deck MovieCardDeck" id="Section3">
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
                                 <h4 class="card-title" id="MovieArt">Top 6 Japanese Historical Movie</h4>
                                 <br><br><br>
                                 <p class="card-text">Disastrous</p>
                             </div>
-                        <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/HistoryMovie.png" alt="Japanese Historical Movie" height="60%">
+                        <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/HistoryMovie.png" alt="Japanese Historical Movie" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
@@ -351,7 +354,7 @@
                                 <br><br><br>
                                 <p class="card-text">Scary</p>
                             </div>
-                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/HorrowMovie.png" alt="Japanese Terrific Movie" height="60%">
+                            <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/HorrowMovie.png" alt="Japanese Terrific Movie" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
                     <ul class="pagination justify-content-center">
@@ -379,37 +382,37 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="MainIndexPic/MusicHomepage/JapanMusic1.png" alt="Japanese Music Picture 1" width="100%" height="100%" class="img-responsive">
+                            <img src="MainIndexPic/MusicHomepage/JapanMusic1.png" alt="Japanese Music Picture 1" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Click For More</h2>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MusicHomepage/JapanMusic2.png" alt="Japanese Music Picture 2" width="100%" height="100%" class="img-responsive">
+                            <img src="MainIndexPic/MusicHomepage/JapanMusic2.png" alt="Japanese Music Picture 2" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Click For More</h2>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic3.png" alt="Japanese Music Picture 3" width="100%" height="100%" class="img-responsive">
+                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic3.png" alt="Japanese Music Picture 3" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Click For More</h2>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic4.png" alt="Japanese Music Picture 4" width="100%" height="100%" class="img-responsive">
+                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic4.png" alt="Japanese Music Picture 4" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Click For More</h2>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic5.png" alt="Japanese Music Picture 5" width="100%" height="100%" class="img-responsive">
+                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic5.png" alt="Japanese Music Picture 5" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                                 <div class="carousel-caption">
                                     <h2>Click For More</h2>
                                 </div>
                         </div>
                         <div class="item">
-                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic6.png" alt="Japanese Music Picture 6" width="100%" height="100%" class="img-responsive">
+                            <img src="MainIndexPic/MusicHomepage/JapaneseMusic6.png" alt="Japanese Music Picture 6" width="100%" height="100%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                             <div class="carousel-caption">
                                 <h2>Click For More</h2>
                             </div>
@@ -430,7 +433,18 @@
             </div>
         </div>
     </div>
-    <!-- sepcify the width of the columns 8 : 4-->
+    <div class="container-fluid" id="Advertisement">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
     <!-- Footer of the page -->
+    <div class="jumbotron" id="Footer">
+        <div class="container-fluid">
+            <p><small>COPYRIGHT &copy;2018 by The SixNatures</small></p>
+            <p>
+                <a href="#">|&emsp;About us&emsp;</a>
+                <a href="#">|&emsp;Contact&emsp;|</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>

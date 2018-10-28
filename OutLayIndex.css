@@ -30,7 +30,9 @@
     font-family: Article;
     src: url(FontDownload/BonvenoCF.otf);
 }
-
+/* cate effect */
+#cate > a:link, a:visited {color: black;}
+#category > a:hover {color: #7cc400;}
 /*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
     /*Display compatible navigation bar*/
@@ -107,7 +109,9 @@
     #MoviesCate {background-color: #efffe9;}
     #Section1, #Section2, #Section3 {padding-left: 15vw; padding-right: 15vw;}
     /* Music Content */
-    #MusicCate {background-color: #7cc400;}
+    #MusicCate {background-color: #d1ef9f;}
+    /* Footer */
+    #Footer {background-color: #7cc400; font-family: Article;}
 }
 
 /* medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/

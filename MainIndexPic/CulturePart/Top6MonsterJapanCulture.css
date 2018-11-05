@@ -1,0 +1,83 @@
+/* Good way here */
+@font-face {
+    font-family: TheSixNatures;
+    src: url(FontDownload/3Dumb.ttf);
+}
+#text {
+    color: #d1ef9f;
+    font-family: TheSixNatures;
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: Category;
+    src: url(Aaargh.ttf);
+}
+#CateName {
+    font-family: Category;
+    font-weight: bold;
+}
+@font-face {
+    font-family: Article;
+    src: url(FontDownload/BonvenoCF.otf);
+}
+/* cate effect */
+#cate > a:link, a:visited {color: black;}
+#category > a:hover {color: #7cc400;}
+
+/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+#Header{
+    position: relative;
+    background-color: #efffe9;
+}
+.navbar {
+    height: 50px;
+}
+@media only screen and (min-width: 960px) {
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 1vh;
+    }
+    /* padding for objects */
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /* The Six Natures */
+    #text {
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        transform: translate(0, -350%);
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 300%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: 80%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+    #facebook > a:link {color: black;}
+    #twitter > a:link {color: black;}
+    #instagram > a:link {color: black;}
+    /* Cate Edit */
+    #cate {
+        background-color:  #d1ef9f;
+        font-size: 250%;
+        color: black;
+    }
+    #category > a:link {color: black;}
+    #category {font-family: Category; font-weight: bold;}   
+    #category > a:hover {color: #7cc400;}
+}

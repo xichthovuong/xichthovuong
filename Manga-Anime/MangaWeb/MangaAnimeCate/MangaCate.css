@@ -1,0 +1,79 @@
+/* Good way here */
+@font-face {
+    font-family: TheSixNatures;
+    src: url(../../../../FontDownload/3Dumb.ttf);
+}
+#text {
+    color: #d1ef9f;
+    font-family: TheSixNatures;
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: Category;
+    src: url(../../../FontDownload/Aaargh.ttf);
+}
+#CateName {
+    font-family: Category;
+    font-weight: bold;
+}
+@font-face {
+    font-family: Article;
+    src: url(../../../../FontDownload/BonvenoCF.otf);
+}
+#Header{
+    position: relative;
+    background-color: #efffe9;
+}
+.navbar {
+    height: 50px;
+}
+/* cate effect */
+#cate > a:link, a:visited {color: black;}
+#category > a:hover {color: #7cc400;}
+#cate {
+    background-color:  #d1ef9f;
+    font-size: 250%;
+    font-family: Category;
+    font-weight: bold;
+    color: black;
+}
+
+/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+/* The Six Natures edit */
+#text {display: block; margin: auto; padding-left: 25vw; padding-top: 3vh; display: flex; align-self: baseline; font-size: 400%;font-family: TheSixNatures; font-weight: bold;}
+#LoName {display: flex; flex-direction: row;}
+/*Display compatible navigation bar*/
+#NavSmall {
+    display: none;
+    padding-top: 1vh;
+}
+#NavLarge {
+    display: block;
+    padding-top: 1vh;
+}
+/* padding for objects */
+.container-fluid {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+/* Social Media CSS */
+.fa {
+    font-size: 250%;
+}
+.nav {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(0, -50%);
+}
+#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+
+/* Footer */
+#Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
+#word {color: white; font-size: 220%;}
+#word1 {color: white; font-size: 200%; padding-top: 25px;}
+}

@@ -1,7 +1,7 @@
 /* Good way here */
 @font-face {
     font-family: TheSixNatures;
-    src: url(FontDownload/3Dumb.ttf);
+    src: url(../../../../FontDownload/3Dumb.ttf);
 }
 #text {
     color: #d1ef9f;
@@ -41,6 +41,9 @@
 @media only screen and (min-width: 960px) {
 /* Font for all */
 .col-lg-8 {font-family: Article; line-height: 25px; font-size: 150%;}
+/* The Six Natures edit */
+#text {display: block; margin: auto; padding-left: 25vw; padding-top: 3vh; display: flex; align-self: baseline; font-size: 400%;font-family: TheSixNatures; font-weight: bold;}
+#LoName {display: flex; flex-direction: row;}
 /* Main Head for Section */
 .lead {font-weight: bold; text-align: center; font-size: 300%;}
 .mt-4 {font-weight: bold; font-size: 350%;}
@@ -75,6 +78,7 @@
 #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
 
 /* Footer */
-#Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif;}
-#word {color: white;}
+#Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
+#word {color: white; font-size: 220%;}
+#word1 {color: white; font-size: 200%; padding-top: 25px;}
 }

@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: Category;
-    src: url(FontDownload/Aaargh.ttf);
+    src: url(../../../../FontDownload/Aaargh.ttf);
 }
 #CateName {
     font-family: Category;
@@ -18,7 +18,7 @@
 }
 @font-face {
     font-family: Article;
-    src: url(FontDownload/BonvenoCF.otf);
+    src: url(../../../../FontDownload/BonvenoCF.otf);
 }
 #Header{
     position: relative;
@@ -37,6 +37,14 @@
     font-weight: bold;
     color: black;
 }
+/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+/* Font for all */
+.col-lg-8 {font-family: Article; line-height: 25px; font-size: 150%;}
+/* Main Head for Section */
+.lead {font-weight: bold; text-align: center; font-size: 300%;}
+.mt-4 {font-weight: bold; font-size: 350%;}
+#suggested {font-weight: bold;}
  /*Display compatible navigation bar*/
  #NavSmall {
     display: none;
@@ -69,3 +77,4 @@
 /* Footer */
 #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif;}
 #word {color: white;}
+}

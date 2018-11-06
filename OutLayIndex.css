@@ -83,6 +83,7 @@
     /* card edit */
     .card {height: 800px;}
     .card-title {font-family: Article;font-size: 400%;text-align: center;text-transform: uppercase;}
+    .card-body > a:link {color: black;}
     /* Manga & Anime Content */
     .item {height: 800px;}
     /* Education content */
@@ -112,8 +113,9 @@
     /* Music Content */
     #MusicCate {background-color: #d1ef9f;}
     /* Footer */
-    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif;}
-    #word {color: white;}
+    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
+    #word {color: white; font-size: 220%;}
+    #word1 {color: white; font-size: 200%; padding-top: 25px;}
 }
 
 /* medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -196,7 +198,7 @@
     #MusicCate {background-color: #d1ef9f;}
     /* Footer */
     #Footer {background-color: #0f4200; font-family: Article;}
-    #word {color: white;}
+    #word {color: white; font-size: 150%;}
 }
 
 /*small phone tablet 576px  --------------------------------------------------------------------------------------------------------------------------------------------*/

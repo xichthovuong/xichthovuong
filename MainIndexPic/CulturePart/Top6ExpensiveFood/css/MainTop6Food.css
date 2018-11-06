@@ -40,7 +40,7 @@
 /*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
 /* Font for all */
-.col-lg-8 {font-family: Article; line-height: 25px; font-size: 150%;}
+.col-lg-8 {line-height: 50px; font-size: 150%;}
 /* The Six Natures edit */
 #text {display: block; margin: auto; padding-left: 25vw; padding-top: 3vh; display: flex; align-self: baseline; font-size: 400%;font-family: TheSixNatures; font-weight: bold;}
 #LoName {display: flex; flex-direction: row;}

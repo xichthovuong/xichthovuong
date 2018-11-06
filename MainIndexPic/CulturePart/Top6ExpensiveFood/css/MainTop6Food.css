@@ -69,7 +69,7 @@
 .nav {
     margin: 0;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 80%;
     transform: translate(0, -50%);
 }

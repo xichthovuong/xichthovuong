@@ -34,7 +34,7 @@
 #cate > a:link, a:visited {color: black;}
 #category > a:hover {color: #7cc400;}
 
-/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Large PC 1000px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -82,8 +82,8 @@
     }
     /* card edit */
     .card {height: 800px;}
-    .card-title {font-family: Article;font-size: 400%;text-align: center;text-transform: uppercase;}
-    .card-body > a:link {color: black;}
+    #CulTitle {font-family: Article;font-size: 400%;text-align: center;text-transform: uppercase;}
+    .card-body > a:link, a :visited {color: black;}
     /* Manga & Anime Content */
     .item {height: 800px;}
     /* Education content */
@@ -112,13 +112,15 @@
     #Section1, #Section2, #Section3 {padding-left: 15vw; padding-right: 15vw;}
     /* Music Content */
     #MusicCate {background-color: #d1ef9f;}
+    /* Advertisement */
+    #Advertisement {height: 220px;}
     /* Footer */
     #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
     #word {color: white; font-size: 220%;}
     #word1 {color: white; font-size: 200%; padding-top: 25px;}
 }
 
-/* medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px) {
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -166,7 +168,8 @@
     }
     /* card edit */
     .card {height: 500px;}
-    .card-title {font-family: Article;font-size: 200%;text-align: center;text-transform: uppercase;}
+    #CulTitle {font-family: Article;font-size: 200%;text-align: center;text-transform: uppercase;}
+    .card-body > a:link {color: black;}
     /* Manga & Anime Content */
     .item {height: 400px;}
     /* Education content */
@@ -180,7 +183,8 @@
         background-color: #7cc400;
     }
     #BriefEdu {position: relative;}
-    #BriefEdu #EduArticle {padding-top: 5%; font-weight: bold; text-transform: uppercase; font-size: 200%; font-family: Article;}
+    #BriefEdu #EduArticle {padding-top: 3%; font-weight: bold; text-transform: uppercase; font-size: 150%; font-family: Article;}
+    #EduArticle {font-size: 180%;}
     /* Style Content */
     #ContentStyle {position: absolute;} 
     #StyleCate {background-color: #d1ef9f;}
@@ -190,41 +194,109 @@
     #BriefStyle, #ImageStyle {padding: 0 0 0 0;}
     #StyleArticle {font-weight: bold; text-transform: uppercase; font-size: 300%; font-family: Article;}
     /* Movie Content */
-    .card-title {font-weight: bold; text-transform: uppercase; font-size: 300%; font-family: Article;}
-    #MovieArt {padding-top: 10%;}
+    #MovieArt {padding-top: 10%;font-weight: bold; text-transform: uppercase; font-size: 200%; font-family: Article;}
+    #MoviesCate {background-color: #efffe9;}
+    #Section1, #Section2, #Section3 {padding-left: 5vw; padding-right: 5vw;}
+    /* Music Content */
+    #MusicCate {background-color: #d1ef9f;}
+    /* Advertisement */
+    #Advertisement {height: 150px;}
+    /* Footer */
+    #Footer {background-color: #0f4200; height: 100px;}
+    #word1 {color: white; font-size: 150%; padding-top: 3%;}
+    #word {color: white; font-size: 150%;}
+}
+
+/*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    /*Things in the header */
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 1vh;
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 250%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+    /* padding for objects */
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /* Edit the picture and "The Sixnatures" word of header */
+    #PicHead {
+        opacity: 1;
+        padding-left: 0%;
+        padding-right: 0%;
+        object-fit: cover;   /* CSS keyword for IMAGES */
+        height: 450px;
+    }
+    #text {
+        position: absolute;
+        font-size: 700%;
+        line-height: 100px;
+        padding-left: 12vw;
+        top: 30vh;
+        font-weight: bold;
+    }
+    /* card edit */
+    .card {height: 500px;}
+    #CulTitle {font-family: Article;font-size: 200%;text-align: center;text-transform: uppercase;}
+    .card-body > a:link {color: black;}
+    /* Manga & Anime Content */
+    .item {height: 400px;}
+    /* Education content */
+    #Education {
+        height: 850px;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    #EduPic {height: 200px;}
+    #EducationCate {
+        background-color: #7cc400;
+    }
+    #BriefEdu {position: relative;}
+    #BriefEdu #EduArticle {padding-top: 3%; font-weight: bold; text-transform: uppercase; font-size: 150%; font-family: Article;}
+    #EduArticle {font-size: 180%;}
+    /* Style Content */
+    #ContentStyle {position: absolute;} 
+    #StyleCate {background-color: #d1ef9f;}
+    #Style {height: 1300px;}
+    #BriefStyle {background-color: #7cc400;}
+    #StyleArt {padding: 20% 20% 0% 25%;}
+    #BriefStyle, #ImageStyle {padding: 0 0 0 0;}
+    #StyleArticle {font-weight: bold; text-transform: uppercase; font-size: 300%; font-family: Article;}
+    /* Movie Content */
+    #MovieArt {padding-top: 10%;font-weight: bold; text-transform: uppercase; font-size: 200%; font-family: Article;}
     #MoviesCate {background-color: #efffe9;}
     #Section1, #Section2, #Section3 {padding-left: 10vw; padding-right: 10vw;}
     /* Music Content */
     #MusicCate {background-color: #d1ef9f;}
+    /* Advertisement */
+    #Advertisement {height: 150px;}
     /* Footer */
-    #Footer {background-color: #0f4200; font-family: Article;}
+    #Footer {background-color: #0f4200; height: 100px;}
+    #word1 {color: white; font-size: 150%; padding-top: 3%;}
     #word {color: white; font-size: 150%;}
 }
 
-/*small phone tablet 576px  --------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 830px) {
-    #NavSmall {
-        display: block;
-        padding-top: 1vh;
-    }
-    #NavLarge {
-        display: none;
-        padding-top: 1vh;
-    }
-    #PicHead {
-        opacity: 1;
-        height: 400px;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    #text {
-        position: absolute;
-        font-size: 400%;
-        line-height: 100px;
-        padding-left: 12vw;
-        top: 37vh;
-        font-weight: bold;
-    }
+
+@media only screen and (max-width: 575px) {
 }
 
 /* Need fixing */

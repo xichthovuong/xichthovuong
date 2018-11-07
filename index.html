@@ -24,6 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <style type="text/css">
         .MovieCardDeck {display: none;}
+        #Size576 {display: none;}
     </style>
     <script>
         $(document).ready(function(){
@@ -53,10 +54,10 @@
     <div class="container-fluid" id="Header">
         <figure>
             <a href="index.html">
-                <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154ååvh">
+                <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
             </a>
         </figure>
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-end" id="Size768">
             <li id="facebook" class="nav-item"><a href="#"><i class="fa fa-facebook"></i></a>&emsp;&emsp;&emsp;</li>
             <li id="twitter" class="nav-item"><a href="#"><i class="fa fa-twitter"></i></a>&emsp;&emsp;&emsp;</li>
             <li id="instagram" class="nav-item"><a href="#"><i class="fa fa-instagram"></i></a>&emsp;&emsp;&emsp;</li>
@@ -129,7 +130,7 @@
                         <br>
                         <div class="card-body">
                             <a href="MainIndexPic/CulturePart/Top6ExpensiveFood/Top6ExpensiveFood.html">
-                                <h4 class="card-title">Top 6 Expensive Japanese Food</h4>
+                                <h4 class="card-title" id="CulTitle">Top 6 Expensive Japanese Food</h4>
                             </a>
                             <br><br><br>
                             <p class="card-text">Delicious</p>
@@ -139,7 +140,7 @@
                         <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseCulture.jpg" alt="Japanese Festival" height="50%" style="object-fit: cover; opacity: 1;">
                         <br>
                         <div class="card-body">
-                            <h4 class="card-title">Top 6 Japanese Festivals</h4>
+                            <h4 class="card-title" id="CulTitle">Top 6 Japanese Festivals</h4>
                             <br><br><br>
                             <p class="card-text">Interesting</p>
                         </div>
@@ -148,7 +149,7 @@
                         <img class="card-img-top" src="MainIndexPic/CulturePart/JapaneseMonster.jpg" alt="Japanese Monsters" height="50%" style="object-fit: cover; opacity: 1;">
                         <br>
                         <div class="card-body">
-                            <h4 class="card-title">Top 6 Monsters Appeared in Japanese Culture</h4>
+                            <h4 class="card-title" id="CulTitle">Top 6 Monsters Appeared in Japanese Culture</h4>
                             <br>
                             <p class="card-text">Scary</p>
                         </div>
@@ -305,6 +306,7 @@
                 <h1 id="CateName">Movie</h1><br><br>
                 <!-- Large Size Process -->
                 <div id="MovieContent">
+                    <!--Section 1-->
                     <div class="card-deck" id="Section1">
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
@@ -323,6 +325,7 @@
                             <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/OldBoyMindbending.png" alt="Japanese Mindbending Movie Oldboy" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
+                    <!--Section 2-->
                     <div class="card-deck MovieCardDeck" id="Section2">
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
@@ -341,6 +344,7 @@
                             <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/DocumentaryTheCove.png" alt="Japanese Documentary Movie The Cove" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
+                    <!-- Section 3-->
                     <div class="card-deck MovieCardDeck" id="Section3">
                         <div class="card">
                             <div class="card-body" style="background-color: #7cc400">
@@ -359,14 +363,16 @@
                             <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/HorrowMovie.png" alt="Japanese Terrific Movie" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item active"><button type="button" id="Button1">1</button></li>
-                        <li class="page-item"><button type="button" id="Button2">2</button></li>
-                        <li class="page-item"><button type="button" id="Button3">3</button></li>
-                    </ul>
                 </div>
             </div>
         </div>
+
+        <hr style="background-color: black;">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active"><button type="button" id="Button1">1</button></li>
+                <li class="page-item"><button type="button" id="Button2">2</button></li>
+                <li class="page-item"><button type="button" id="Button3">3</button></li>
+            </ul>
         <!-- Music as Cate 6 -->
         <div class="jumbotron" id="MusicCate"><br><br>
             <div class="container-fluid" id="CarouselSize">
@@ -436,7 +442,6 @@
         </div>
     </div>
     <div class="container-fluid" id="Advertisement">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
     <!-- Footer of the page -->
         <div class="container-fluid" id="Footer">

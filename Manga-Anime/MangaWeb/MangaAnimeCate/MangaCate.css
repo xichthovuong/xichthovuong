@@ -71,6 +71,10 @@
 #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
 #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
 #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+/* Paragraph for the content */
+#Info {font-size: 180%;}
+#titleHead {font-size: 220%;}
+#view {font-size: 150%;}
 
 /* Footer */
 #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}

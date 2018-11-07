@@ -33,6 +33,8 @@
 /* cate effect */
 #cate > a:link, a:visited {color: black;}
 #category > a:hover {color: #7cc400;}
+/* Title Article */
+#CateName{text-align: center;text-transform: uppercase;}
 
 /*Large PC 1000px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
@@ -85,7 +87,7 @@
     #CulTitle {font-family: Article;font-size: 400%;text-align: center;text-transform: uppercase;}
     .card-body > a:link, a :visited {color: black;}
     /* Manga & Anime Content */
-    .item {height: 800px;}
+    .item {height: 600px;}
     /* Education content */
     #Education {
         height: 1450px;
@@ -210,24 +212,25 @@
 /*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     /*Things in the header */
+    #Logo {width: 139px; height: 100px;}
     /*Display compatible navigation bar*/
     #NavSmall {
-        display: none;
+        display: block;
         padding-top: 1vh;
     }
     #NavLarge {
-        display: block;
+        display: none;
         padding-top: 1vh;
     }
     /* Social Media CSS */
     .fa {
-        font-size: 250%;
+        font-size: 200%;
     }
     .nav {
         margin: 0;
         position: absolute;
-        top: 30%;
-        left: 80%;
+        top: 40%;
+        left: 70%;
         transform: translate(0, -50%);
     }
     #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
@@ -244,25 +247,27 @@
         padding-left: 0%;
         padding-right: 0%;
         object-fit: cover;   /* CSS keyword for IMAGES */
-        height: 450px;
+        height: 350px;
     }
     #text {
         position: absolute;
-        font-size: 700%;
+        font-size: 400%;
         line-height: 100px;
         padding-left: 12vw;
         top: 30vh;
         font-weight: bold;
     }
     /* card edit */
-    .card {height: 500px;}
-    #CulTitle {font-family: Article;font-size: 200%;text-align: center;text-transform: uppercase;}
+    .card {height: 300px;}
+    #CulTitle {font-family: Article;font-size: 120%;text-align: center;text-transform: uppercase;}
+    #CulText {font-size: 80%;}
     .card-body > a:link {color: black;}
     /* Manga & Anime Content */
     .item {height: 400px;}
+    #ManImg {height: 400px;}
     /* Education content */
     #Education {
-        height: 850px;
+        height: 1150px;
         padding-left: 4vw;
         padding-right: 4vw;
     }
@@ -272,21 +277,20 @@
     }
     #BriefEdu {position: relative;}
     #BriefEdu #EduArticle {padding-top: 3%; font-weight: bold; text-transform: uppercase; font-size: 150%; font-family: Article;}
-    #EduArticle {font-size: 180%;}
+    #EduArticle {font-size: 180%; text-align: center;}
     /* Style Content */
-    #ContentStyle {position: absolute;} 
     #StyleCate {background-color: #d1ef9f;}
-    #Style {height: 1300px;}
-    #BriefStyle {background-color: #7cc400;}
-    #StyleArt {padding: 20% 20% 0% 25%;}
-    #BriefStyle, #ImageStyle {padding: 0 0 0 0;}
-    #StyleArticle {font-weight: bold; text-transform: uppercase; font-size: 300%; font-family: Article;}
+    #ImageStyle {height: 300px;}
+    #BriefStyle {background-color: #7cc400; height: 300px;}
+    #StyleArticle {font-weight: bold; text-transform: uppercase; font-size: 200%; font-family: Article;text-align: center;}
     /* Movie Content */
-    #MovieArt {padding-top: 10%;font-weight: bold; text-transform: uppercase; font-size: 200%; font-family: Article;}
+    #MovieArt {padding-top: 10%;font-weight: bold; text-transform: uppercase; font-size: 130%; font-family: Article; padding-bottom: 10%;}
     #MoviesCate {background-color: #efffe9;}
-    #Section1, #Section2, #Section3 {padding-left: 10vw; padding-right: 10vw;}
+    #MovieCard {height: 300px;}
+    #Section1, #Section2, #Section3 {padding-left: 5vw; padding-right: 5vw;}
     /* Music Content */
     #MusicCate {background-color: #d1ef9f;}
+    #MusicImg {height: 400px;}
     /* Advertisement */
     #Advertisement {height: 150px;}
     /* Footer */
@@ -324,10 +328,6 @@
 .card-body {
     text-align: center;
     line-height: 200%;
-}
-#CateName{
-    text-align: center;
-    text-transform: uppercase;
 }
 .carousel-caption {
     color: white;

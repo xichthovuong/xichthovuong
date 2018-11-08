@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Six Natures</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" href="Header.css">
-    <script src="main.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -28,24 +26,10 @@
     </style>
     <script>
         $(document).ready(function(){
-            $("#Button1").click(function(){
-                $("#Section1").show();
-                $("#Section2").hide();
-                $("#Section3").hide();
-                $("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");
-            });
-            $("#Button2").click(function(){
-                $("#Section1").hide();
-                $("#Section2").show();
-                $("#Section3").hide();
-                $("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");
-            });
-            $("#Button3").click(function(){
-                $("#Section1").hide();
-                $("#Section2").hide();
-                $("#Section3").show();
-                $("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");
-            });
+            $("#Button1").click(function(){$("#Section1").show();$("#Section2").hide();$("#Section3").hide();$("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");});
+            $("#Button2").click(function(){$("#Section1").hide();$("#Section2").show();$("#Section3").hide();$("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");});
+            $("#Button3").click(function(){$("#Section1").hide();$("#Section2").hide();$("#Section3").show();$("#Section1, #Section2, #Section3").removeClass("MovieCardDeck");});
+            $("#ButtonControl").click(function(){$("#text").toggle()});
         });
     </script>
     <link rel="stylesheet" type="text/css" href="OutLayIndex.css">
@@ -89,28 +73,28 @@
             </ul>
         </nav>
         <nav class="navbar navbar-expand-sm" id="NavSmall">
-            <button aria-controls="navbarRes" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarRes" data-toggle="collapse" type="button">
+            <button id="ButtonControl" aria-controls="navbarRes" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarRes" data-toggle="collapse" type="button">
                 <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarRes">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
+                        <a class="nav-link" id="NAV" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" id="NAV" href="#">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Style</a>
+                        <a class="nav-link" id="NAV" href="#">Style</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Culture</a>
+                        <a class="nav-link" id="NAV" href="#">Culture</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Movies</a>
+                        <a class="nav-link" id="NAV" href="#">Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
+                        <a class="nav-link" id="NAV" href="#">Music</a>
                     </li>
                 </ul>
             </nav>
@@ -239,30 +223,30 @@
                 <div class="ContentEdu">
                     <!--Large Size Progress-->
                     <div class="row" id="Edu1">
-                        <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="col">
                             <img src="MainIndexPic/EducationHomepage/EducationLogo.png" alt="Education in computer" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-6" id="BriefEdu">
+                        <div class="col" id="BriefEdu">
                             <h3 id="EduArticle">Top 6 Japanese Universities</h3>
                             <p id="EduIntro">Grab a coffee and enjoy the best tour around with the six most prestigious Japanese Universities</p>
                         </div>
                     </div>
                     <br><br>
                     <div class="row" id="Edu2">
-                        <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="col">
                             <img src="MainIndexPic/EducationHomepage/EducationBook.png" alt="Education in book" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-6" id="BriefEdu">
+                        <div class="col" id="BriefEdu">
                             <h3 id="EduArticle">Top 6 Japanese Physics Book</h3>
                             <p id="EduIntro">What do you know about physics? Air and space? Quantum World? Heat? Curiousity leads you to our page. Let explore the physics world</p>
                         </div>
                     </div>
                     <br><br>
                     <div class="row" id="Edu3">
-                        <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="col">
                             <img src="MainIndexPic/EducationHomepage/EducationTest.png" alt="Education in Test Room" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-6" id="BriefEdu">
+                        <div class="col" id="BriefEdu">
                             <h3 id="EduArticle">Top 6 Crazy Subject Test</h3>
                             <p id="EduIntro">Knowledge is superpower dominating the world. Even you are a maestro, you just touch the surface. Have a look at those monsters and see how much your talent is</p>
                         </div>
@@ -270,6 +254,39 @@
                 </div>
             </div>
         </div>
+        
+        <!--Education for mobile As Cate 3-->
+        <div class="jumbotron" id="EducationCateMobile">
+          <div class="container-fluid" id="Education">
+            <h1 id="CateName">Education</h1><br><br>
+              <div class="ContentEdu">
+                <div class="row" id="Edu1">
+                  <img src="MainIndexPic/EducationHomepage/EducationLogo.png" alt="Education in computer" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
+                  <section>
+                    <h3 id="EduArticle">Top 6 Japanese Universities</h3>
+                    <p id="EduIntro">Grab a coffee and enjoy the best tour around with the six most prestigious Japanese Universities</p>
+                  </section>
+                </div>
+                <br><br>
+                <div class="row" id="Edu2">
+                  <img src="MainIndexPic/EducationHomepage/EducationBook.png" alt="Education in book" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
+                  <section>
+                    <h3 id="EduArticle">Top 6 Japanese Physics Book</h3>
+                    <p id="EduIntro">What do you know about physics? Air and space? Quantum World? Heat? Curiousity leads you to our page. Let explore the physics world</p>
+                  </section>
+                </div>
+                <br><br>
+                <div class="row" id="Edu3">
+                  <img src="MainIndexPic/EducationHomepage/EducationTest.png" alt="Education in Test Room" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
+                  <section>
+                    <h3 id="EduArticle">Top 6 Crazy Subject Test</h3>
+                    <p id="EduIntro">Knowledge is superpower dominating the world. Even you are a maestro, you just touch the surface. Have a look at those monsters and see how much your talent is</p>
+                  </section>
+                </div>
+              </div>
+          </div>
+        </div>
+
         <!-- Style as Cate 4 -->
         <div class="jumbotron" id="StyleCate">
             <div class="container-fluid" id="Style">
@@ -277,10 +294,10 @@
                 <div class="ContentStyle">
                     <!-- Large Size Process -->
                     <div class="row no-gutters" id="Style1">
-                        <div class="col-md-6 col-lg-6 col-xl-6" id="ImageStyle">
-                            <img src="MainIndexPic/StyleHomepage/DressStyle.png" alt="Style in Dress" width="100%" height="550px" style="object-fit: cover; opacity: 1;">
+                        <div class="col" id="ImageStyle">
+                            <img src="MainIndexPic/StyleHomepage/DressStyle.png" alt="Style in Dress" width="100%" height="550px" id="ImageStyle" style="object-fit: cover; opacity: 1;">
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-6" id="BriefStyle">
+                        <div class="col" id="BriefStyle">
                             <article id="StyleArt">
                                 <h3 id="StyleArticle">Top 6 Japanese Dress Style</h3>
                                 <p id="StyleIntro">The way Japanese girls put on their dress is overfantastic and fashionable. Do you want to learn some tips?</p>
@@ -289,19 +306,44 @@
                     </div>
                     <br><br><br><br>
                     <div class="row no-gutters" id="Style2">
-                        <div class="col-md-6 col-lg-6 col-xl-6" id="BriefStyle">
+                        <div class="col" id="BriefStyle">
                             <article id="StyleArt">
                                 <h3 id="StyleArticle">Top 6 Japanese Room Style</h3>
                                 <p id="StyleIntro">Stunned by one-floor cottage of Japanese people. Although the house is small, it is super cozy and warm. Discover their architect with The Six Natures</p>
                             </article>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="col">
                             <img src="MainIndexPic/StyleHomepage/RoomStyle.png" alt="Style in Room" width="100%" height="550px" id="ImageStyle" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--Style for mobile version as Cate 4-->
+        <div class="jumbotron" id="StyleCateMobile">
+          <div class="container-fluid" id="Style">
+            <h1 id="CateName">Style</h1><br><br>
+              <div class="ContentStyle">
+                <div id="Style1">
+                  <img src="MainIndexPic/StyleHomepage/DressStyle.png" alt="Style in Dress" width="100%" height="550px" id="ImageStyle" style="object-fit: cover; opacity: 1;">
+                  <div id="StyleArt">
+                    <h3 id="StyleArticle">Top 6 Japanese Dress Style</h3>
+                    <p id="StyleIntro">The way Japanese girls put on their dress is overfantastic and fashionable. Do you want to learn some tips?</p>
+                  </div>
+                </div>
+                <hr style="background-color: black;">
+                <div id="Style2">
+                  <img src="MainIndexPic/StyleHomepage/RoomStyle.png" alt="Style in Room" width="100%" height="550px" id="ImageStyle" style="object-fit: cover; opacity: 1;">
+                  <div id="StyleArt">
+                    <h3 id="StyleArticle">Top 6 Japanese Room Style</h3>
+                    <p id="StyleIntro">Stunned by one-floor cottage of Japanese people. Although the house is small, it is super cozy and warm. Discover their architect with The Six Natures</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
          <!-- Movies as Cate 5 -->
          <div class="jumbotron" id="MoviesCate">
             <div class="container-fluid" id="Movie">    
@@ -332,7 +374,7 @@
                         <div class="card" id="MovieCard">
                             <div class="card-body" style="background-color: #7cc400">
                                 <h4 class="card-title" id="MovieArt">Top 6 Japanese Romantic Movie</h4>
-                                <br><br><br>
+                                <br><br>
                                 <p class="card-text">Super Sweet</p>
                             </div>
                         <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/TaiyouRomantic.png" alt="Japanese Romantic Movie Taiyou" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
@@ -340,7 +382,7 @@
                         <div class="card" id="MovieCard">
                             <div class="card-body" style="background-color: #7cc400">
                                 <h4 class="card-title" id="MovieArt">Top 6 Japanese Documentary Movie</h4>
-                                <br><br><br>
+                                <br><br>
                                 <p class="card-text">Informative</p>
                             </div>
                             <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/DocumentaryTheCove.png" alt="Japanese Documentary Movie The Cove" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">
@@ -351,7 +393,7 @@
                         <div class="card" id="MovieCard">
                             <div class="card-body" style="background-color: #7cc400">
                                 <h4 class="card-title" id="MovieArt">Top 6 Japanese Historical Movie</h4>
-                                <br><br><br>
+                                <br><br>
                                 <p class="card-text">Disastrous</p>
                             </div>
                         <img class="card-img-bottom" src="MainIndexPic/MovieHomepage/HistoryMovie.png" alt="Japanese Historical Movie" height="60%" class="img-responsive" style="object-fit: cover; opacity: 1;">

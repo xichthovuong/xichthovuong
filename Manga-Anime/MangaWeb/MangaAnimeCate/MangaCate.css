@@ -81,3 +81,119 @@
 #word {color: white; font-size: 220%;}
 #word1 {color: white; font-size: 200%; padding-top: 25px;}
 }
+
+/* Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 960px) {
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 1vh;
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 250%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+
+    /* Paragraph for the content */
+#Info {font-size: 180%;}
+#titleHead {font-size: 220%;}
+#view {font-size: 150%;}
+
+    /* Footer */
+    #Footer {background-color: #0f4200; height: 100px;}
+    #word1 {color: white; font-size: 150%; padding-top: 3%;}
+    #word {color: white; font-size: 150%;}
+}
+
+/*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    /*Things in the header */
+    #Logo {width: 139px; height: 100px;}
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: block;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: none;
+        padding-top: 1vh;
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 200%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+
+    /* Paragraph for the content */
+#Info {font-size: 180%;}
+#titleHead {font-size: 220%;}
+#view {font-size: 150%;}
+
+     /* Footer */
+     #Footer {background-color: #0f4200; height: 100px;}
+     #word1 {color: white; font-size: 150%; padding-top: 3%;}
+     #word {color: white; font-size: 150%;}
+}
+
+/* Small device 575px --------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 575px) {
+    /*Things in the header */
+    #Logo {width: 111px; height: 80px;}
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: block;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NAV {color: red;}
+    /* Social Media CSS */
+    .fa {
+        font-size: 150%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+
+    /* Paragraph for the content */
+#Info {font-size: 180%;}
+#titleHead {font-size: 220%;}
+#view {font-size: 150%;}
+
+     /* Footer */
+     #Footer {background-color: #0f4200; height: 100px;}
+     #word1 {color: white; font-size: 150%; padding-top: 3%;}
+     #word {color: white; font-size: 150%;}
+ }

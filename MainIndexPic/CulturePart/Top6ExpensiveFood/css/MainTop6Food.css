@@ -37,6 +37,9 @@
     font-weight: bold;
     color: black;
 }
+/*The Six Natures */
+#text {font-family: TheSixNatures; text-align: center;}
+
 /*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
 /* Font for all */
@@ -84,3 +87,192 @@
 #word {color: white; font-size: 220%;}
 #word1 {color: white; font-size: 200%; padding-top: 25px;}
 }
+
+/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+    /* Font for all */
+    .col-lg-8 {line-height: 35px; font-size: 150%;}
+    /* The Six Natures edit */
+    #text {display: block; margin: auto; padding-left: 25vw; padding-top: 3vh; display: flex; align-self: baseline; font-size: 400%;font-family: TheSixNatures; font-weight: bold;}
+    #LoName {display: flex; flex-direction: row;}
+    /* Main Head for Section */
+    .lead {font-weight: bold; text-align: center; font-size: 300%;}
+    .mt-4 {font-weight: bold; font-size: 350%;}
+    #suggested {font-weight: bold;}
+     /*Display compatible navigation bar*/
+     #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 1vh;
+    }
+    /* padding for objects */
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+     /* Social Media CSS */
+     .fa {
+        font-size: 250%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+    /*Paragraph in the content*/
+    #cont {font-size: 150%; line-height: 35px;}
+    
+    /* Footer */
+    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
+    #word {color: white; font-size: 220%;}
+    #word1 {color: white; font-size: 200%; padding-top: 25px;}
+    }
+
+    /*Medium tablet 768-960px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 960px) and (min-width: 769px) {
+    /* Font for all */
+    .col-lg-8 {line-height: 35px; font-size: 150%;}
+    /* The Six Natures edit */
+    #text {display: block; margin: auto; padding-left: 15vw; padding-top: 5vh; display: flex; align-self: baseline; font-size: 200%;font-family: TheSixNatures; font-weight: bold;}
+    #LoName {display: flex; flex-direction: row;}
+    /* Main Head for Section */
+    .lead {font-weight: bold; text-align: center; font-size: 300%;}
+    .mt-4 {font-weight: bold; font-size: 350%;}
+    #suggested {font-weight: bold;}
+     /*Display compatible navigation bar*/
+     #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 1vh;
+    }
+    /* padding for objects */
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 250%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 80%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+    /*Paragraph in the content*/
+    #cont {font-size: 150%; line-height: 35px;}
+    
+    /* Footer */
+    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
+    #word {color: white; font-size: 220%;}
+    #word1 {color: white; font-size: 200%; padding-top: 25px;}
+    }
+
+    /*Small tablet 576-578px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    /* Font for all */
+    .col-lg-8 {line-height: 35px; font-size: 150%;}
+    /*Header Logo */
+    #Logo {width: 139px; height: 100px;}
+    /* Main Head for Section */
+    .lead {font-weight: bold; text-align: center; font-size: 300%;}
+    .mt-4 {font-weight: bold; font-size: 350%;}
+    #suggested {font-weight: bold;}
+     /*Display compatible navigation bar*/
+     #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 1vh;
+    }
+    /* padding for objects */
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+     /* Social Media CSS */
+     .fa {
+        font-size: 250%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+    /*Paragraph in the content*/
+    #cont {font-size: 150%; line-height: 35px;}
+    
+     /* Footer */
+     #Footer {background-color: #0f4200; height: 100px;}
+     #word1 {color: white; font-size: 150%; padding-top: 3%;}
+     #word {color: white; font-size: 150%;}
+    }
+
+    /*Extra small tablet <576px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 575px) {
+     /*Things in the header */
+     #Logo {width: 111px; height: 80px;}
+    /* Font for all */
+    .col-lg-8 {line-height: 35px; font-size: 150%;}
+    /* Navbar */
+    .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
+    .dropdown-toggle {background-color: #7cc400;}
+    #NAV {font-size: 150%; font-family: Category;}
+    /* Main Head for Section */
+    .lead {font-weight: bold; text-align: center; font-size: 300%;}
+    .mt-4 {font-weight: bold; font-size: 350%;}
+    #suggested {font-weight: bold;}
+     /*Display compatible navigation bar*/
+     #NavSmall {
+        display: block;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: none;
+        padding-top: 1vh;
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 150%;
+    }
+    .nav {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(0, -50%);
+    }
+    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+    /*Paragraph in the content*/
+    #cont {font-size: 150%; line-height: 35px;}
+    
+    /* Footer */
+    #Footer {background-color: #0f4200; height: 100px;}
+    #word1 {color: white; font-size: 150%; padding-top: 3%;}
+    #word {color: white; font-size: 150%;}
+    }

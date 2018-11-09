@@ -80,31 +80,21 @@
                 </li>
             </ul>
         </nav>
-        <div id="NavSmall">
-            <button type="button" data-toggle="collapse" data-target=".navbar-nav2"><i class="fa fa-bars"></i></button>
-            <nav class="navbar navbar-expand-sm">
-                <ul class="navbar-nav2">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../../Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Style</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Culture</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Movies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-sm" id="NavSmall">
+          <div class="dropdown">
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+            CATEGORY
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" id="NAV" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
+              <a class="dropdown-item" id="NAV" href="#">Education</a>
+              <a class="dropdown-item" id="NAV" href="#">Style</a>
+              <a class="dropdown-item" id="NAV" href="#">Culture</a>
+              <a class="dropdown-item" id="NAV" href="#">Movies</a>
+              <a class="dropdown-item" id="NAV" href="#">Music</a>
+            </div>
         </div>
+      </nav>
     </div>
 
     <!-- Advertisement -->

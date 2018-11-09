@@ -36,20 +36,8 @@
     </style>
     <script>
       $(document).ready(function(){
-          $("#button1Page1").click(function(){
-              $("#Page1").show();
-              $("#Page2").hide();
-              $("#Page2").removeClass("SecondPage");
-          });
-          $("#button2Page2").click(function(){
-            $("#Page1").hide();
-            $("#Page2").show();
-            $("#Page2").removeClass("SecondPage");
-          });
-          $("#ButtonControl").click(function(){
-            $("#navbar").show();
-            $("#navbar").css("height", "280px");
-          });
+          $("#button1Page1").click(function(){$("#Page1").show();$("#Page2").hide();$("#Page2").removeClass("SecondPage");});
+          $("#button2Page2").click(function(){$("#Page1").hide();$("#Page2").show();$("#Page2").removeClass("SecondPage");});
       });
     </script>
 
@@ -100,33 +88,21 @@
             </li>
         </ul>
     </nav>
-    <div id="NavSmall">
-        <button id="ButtonControl" aria-controls="navbarRes" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarRes" data-toggle="collapse" type="button">
-          <i class="fa fa-bars"></i>
+    <nav class="navbar navbar-expand-sm" id="NavSmall">
+      <div class="dropdown">
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+          CATEGORY
         </button>
-        <nav class="navbar navbar-expand-sm" id="navbar">
-            <ul id="navbarRes" style="list-style: none;">
-                <li class="nav-item">
-                    <a class="nav-link" id="NAV" href="../../../Manga&Anime.html">Anime&Manga</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="NAV" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="NAV" href="#">Style</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="NAV" href="#">Culture</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="NAV" href="#">Movies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="NAV" href="#">Music</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" id="NAV" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
+          <a class="dropdown-item" id="NAV" href="#">Education</a>
+          <a class="dropdown-item" id="NAV" href="#">Style</a>
+          <a class="dropdown-item" id="NAV" href="#">Culture</a>
+          <a class="dropdown-item" id="NAV" href="#">Movies</a>
+          <a class="dropdown-item" id="NAV" href="#">Music</a>
+        </div>
+      </div>
+    </nav>
 </div>
 
     <!-- Page Content -->

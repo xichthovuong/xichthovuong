@@ -28,7 +28,7 @@
     height: 50px;
 }
 /* cate effect */
-#cate > a:link, a:visited {color: black;}
+#cate > a:link, a:visited, a:active {color: black;}
 #category > a:hover {color: #7cc400;}
 #cate {
     background-color:  #d1ef9f;

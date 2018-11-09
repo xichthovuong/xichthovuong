@@ -125,7 +125,7 @@
 }
 
 /*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 576px) {
     /*Things in the header */
     #Logo {width: 139px; height: 100px;}
     /*Display compatible navigation bar*/

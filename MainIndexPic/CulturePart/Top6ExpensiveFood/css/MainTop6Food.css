@@ -141,7 +141,7 @@
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
     /* The Six Natures edit */
-    #text {display: block; margin: auto; padding-left: 15vw; padding-top: 5vh; display: flex; align-self: baseline; font-size: 200%;font-family: TheSixNatures; font-weight: bold;}
+    #text {display: block; margin: auto; padding-left: 15vw; padding-top: 4vh; display: flex; align-self: baseline; font-size: 200%;font-family: TheSixNatures; font-weight: bold;}
     #LoName {display: flex; flex-direction: row;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 300%;}
@@ -185,7 +185,7 @@
     }
 
     /*Small tablet 576-578px  --------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 576px) {
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
     /*Header Logo */

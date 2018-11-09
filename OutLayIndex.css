@@ -322,7 +322,9 @@
         display: none;
         padding-top: 1vh;
     }
-    #NAV {color: red;}
+    .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
+    .dropdown-toggle {background-color: #7cc400;}
+    #NAV {font-size: 150%; font-family: Category;}
     /* Social Media CSS */
     .fa {
         font-size: 150%;
@@ -389,13 +391,6 @@
 }
 
 /*Supplement */
-#small-text{
-    color:  #d1ef9f;
-    font-size: 600%;
-    display: block;
-    margin: auto;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
 #cate {
     background-color:  #d1ef9f;
     font-size: 250%;
@@ -407,7 +402,6 @@
 #cate > a:hover, a:active {
     color: #7cc400;
 }
-.navbar-nav2 {list-style-type: none;}
 #CultureCate {background-color: #d1ef9f;}
 #MangaCate {background-color: #efffe9;}
 .card-body {

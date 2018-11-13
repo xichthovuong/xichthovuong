@@ -370,13 +370,13 @@
     #ManImg {height: 400px;}
     /* Education content */
     #EducationCate {display: none;}
-    #EducationCateMobile {display: block; height: 1200px; background-color: #7cc400;}
+    #EducationCateMobile {display: block; height: 1100px; background-color: #7cc400;}
     #EduPic {height: 200px;}
     #BriefEdu {position: relative;}
     #EduArticle {padding-top: 2%; text-align: center;font-weight: bold; text-transform: uppercase; font-size: 190%; font-family: Article;}
     #EduIntro {font-size: 130%;}
     /* Style Content */
-    #StyleCateMobile {display: block; background-color: #d1ef9f; height: 1100px;} #StyleCate {display: none;}
+    #StyleCateMobile {display: block; background-color: #d1ef9f; height: 800px;} #StyleCate {display: none;}
     #StyleIntro {font-size: 150%;}
     #ImageStyle {height: 200px;}
     #StyleArticle {font-weight: bold; text-transform: uppercase; font-size: 150%; font-family: Article;}

@@ -30,6 +30,11 @@
     font-family: Article;
     src: url(FontDownload/BonvenoCF.otf);
 }
+/*Social Media Effect*/
+#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+#SocMedia {color: black;}
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
 #category > a:hover {color: #7cc400;}

@@ -38,6 +38,7 @@
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
 #category > a:hover {color: #7cc400;}
+#CateLink {color: black;}
 /* Title Article */
 #CateName{text-align: center;text-transform: uppercase;}
 
@@ -68,9 +69,6 @@
         left: 80%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
     /* Edit the picture and "The Sixnatures" word of header */
     #PicHead {
         opacity: 1;
@@ -152,9 +150,6 @@
         left: 80%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
     /* padding for objects */
     .container-fluid {
         padding-left: 5vw;
@@ -244,9 +239,6 @@
         left: 70%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
     /* padding for objects */
     .container-fluid {
         padding-left: 5vw;
@@ -341,9 +333,6 @@
         left: 50%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
     /* Edit the picture and "The Sixnatures" word of header */
     #PicHead {
         opacity: 1;
@@ -402,10 +391,6 @@
     font-family: Category;
     font-weight: bold;
     color: black;
-}
-#cate > a:link, a:visited {color: black;}
-#cate > a:hover, a:active {
-    color: #7cc400;
 }
 #CultureCate {background-color: #d1ef9f;}
 #MangaCate {background-color: #efffe9;}

@@ -27,9 +27,15 @@
 .navbar {
     height: 50px;
 }
+/*Social Media Effect*/
+#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
+#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
+#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+#SocMedia {color: black;}
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
 #category > a:hover {color: #7cc400;}
+#CateLink {color: black;}
 #cate {
     background-color:  #d1ef9f;
     font-size: 250%;
@@ -70,9 +76,6 @@
     left: 80%;
     transform: translate(0, -50%);
 }
-#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
 /* Paragraph for the content */
 #Info {font-size: 180%;}
 #titleHead {font-size: 220%;}
@@ -109,9 +112,6 @@
         left: 80%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
 
     /* Paragraph for the content */
 #Info {font-size: 180%;}
@@ -148,9 +148,6 @@
         left: 70%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
 
     /* Paragraph for the content */
 #Info {font-size: 180%;}
@@ -190,9 +187,6 @@
         left: 50%;
         transform: translate(0, -50%);
     }
-    #facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-    #twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-    #instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
 
     /* Paragraph for the content */
 #Info {font-size: 180%;}

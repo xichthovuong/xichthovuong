@@ -39,30 +39,40 @@
     <link rel="stylesheet" type="text/css" href="OutLayIndex.css">
 </head>
 <body>
-    <div class="container-fluid" id="Header">
-        <figure>
-            <a href="index.html">
+    <nav class="navbar navbar-expand-sm" id="Header">
+        <div class="w-75">
+            <a href="index.html" class="pl-3">
                 <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
             </a>
-        </figure>
-            
-        <div class="modal" id="myModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <input type="text" class="form-control" placeholder="Search..">
-                    </div>
+        </div>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #7cc400;">
+            <i class="fa fa-bars"></i>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="background-color: #efffe9;">
+            <ul class="navbar-nav" id="SocMed">
+                <li class="nav-item pr-5" id="search" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-search"></i>
+                </li>
+                <li id="facebook" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+                <li id="twitter" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+                <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="Search..">
                 </div>
             </div>
         </div>
-        <ul class="nav justify-content-end" id="Size768">
-            <li class="nav-item" data-toggle="modal" data-target="#myModal">
-                <i class="fa fa-search"></i>&emsp;&emsp;
-            </li>
-            <li id="facebook" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a>&emsp;&emsp;</li>
-            <li id="twitter" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a>&emsp;&emsp;</li>
-            <li id="instagram" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a>&emsp;&emsp;</li>
-        </ul>
     </div>
     <!-- Category -->
     <!-- Change the code below for SOCIAL MEDIA -->
@@ -104,6 +114,7 @@
               <a class="dropdown-item" id="NAV" href="#">Culture</a>
               <a class="dropdown-item" id="NAV" href="#">Movies</a>
               <a class="dropdown-item" id="NAV" href="#">Music</a>
+              <a class="dropdown-item" id="NAV" href="#">Blogs</a>
             </div>
           </div>
         </nav>

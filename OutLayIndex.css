@@ -28,9 +28,10 @@
     src: url(FontDownload/BonvenoCF.otf);
 }
 /*Social Media Effect*/
-#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+#SocMed > #facebook:hover {color: #0041ce!important; background-color: #d1ef9f!important;}
+#SocMed > #twitter:hover {color: #2df8ff; background-color: #d1ef9f;}
+#SocMed > #instagram:hover {color: #e5143a; background-color: #d1ef9f;}
+#SocMed > #search:hover {background-color: #d1ef9f;}
 #SocMedia {color: black;}
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
@@ -46,6 +47,8 @@
 
 /*Large PC 1000px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
+    /* Header */
+    #Header {height: 154px;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -67,13 +70,6 @@
     /* Social Media CSS */
     .fa {
         font-size: 160%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 30%;
-        left: 75%;
-        transform: translate(0, -50%);
     }
     /* Edit the picture and "The Sixnatures" word of header */
     #PicHead {
@@ -126,6 +122,8 @@
 
 /* Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px) and (min-width: 769px) {
+    /* Header */
+    #Header {height: 154px;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -136,20 +134,12 @@
         padding-top: 23px;
     }
     #cate {font-size: 100%;}
-    .navbar {height: 60px;}
     .navbar {
         height: 80px;
     }
     /* Social Media CSS */
     .fa {
         font-size: 150%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 30%;
-        left: 70%;
-        transform: translate(0, -50%);
     }
     /* padding for objects */
     .container-fluid {
@@ -212,6 +202,7 @@
 @media only screen and (max-width: 768px) and (min-width: 576px) {
     /*Things in the header */
     #Logo {width: 139px; height: 100px;}
+    #Header {height: 100px;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -228,13 +219,6 @@
     /* Social Media CSS */
     .fa {
         font-size: 130%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        left: 65%;
-        transform: translate(0, -50%);
     }
     /* padding for objects */
     .container-fluid {
@@ -297,6 +281,7 @@
 @media only screen and (max-width: 575px) {
     /*Things in the header */
     #Logo {width: 111px; height: 80px;}
+    #Header {height: 100px;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: block;
@@ -315,13 +300,6 @@
     /* Social Media CSS */
     .fa {
         font-size: 100%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(0, -50%);
     }
     /* Edit the picture and "The Sixnatures" word of header */
     #PicHead {

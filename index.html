@@ -45,10 +45,23 @@
                 <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
             </a>
         </figure>
+            
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <input type="text" class="form-control" placeholder="Search..">
+                    </div>
+                </div>
+            </div>
+        </div>
         <ul class="nav justify-content-end" id="Size768">
-            <li id="facebook" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a>&emsp;&emsp;&emsp;</li>
-            <li id="twitter" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a>&emsp;&emsp;&emsp;</li>
-            <li id="instagram" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a>&emsp;&emsp;&emsp;</li>
+            <li class="nav-item" data-toggle="modal" data-target="#myModal">
+                <i class="fa fa-search"></i>&emsp;&emsp;
+            </li>
+            <li id="facebook" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a>&emsp;&emsp;</li>
+            <li id="twitter" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a>&emsp;&emsp;</li>
+            <li id="instagram" class="nav-item"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a>&emsp;&emsp;</li>
         </ul>
     </div>
     <!-- Category -->
@@ -152,7 +165,10 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active" id="MangaSlide">
-                            <img src="MainIndexPic/MangaPic/Restaurants.jpg" alt="Japanese Restaurants" id="ManImg" width="100%" height="100%" style="object-fit: cover; opacity: 1;">
+                            <!-- Demo the link-->
+                            <a href="https://www.youtube.com/watch?v=qlTZ7klD6-Q&list=WL&index=2&t=0s">
+                                <img src="MainIndexPic/MangaPic/Restaurants.jpg" alt="Japanese Restaurants" id="ManImg" width="100%" height="100%" style="object-fit: cover; opacity: 1;">
+                            </a>
                             <div class="carousel-caption">
                                 <h2>Top 6 Amazing Restaurants in Anime</h2>
                                 <p>Attractive Taste!</p>

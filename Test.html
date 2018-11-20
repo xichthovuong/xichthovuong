@@ -2,6 +2,9 @@
 <html>
 <head>
     <title>The Six Natures</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--Bootstrap 4-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -13,41 +16,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="jumbotron" id="EducationCate">
-    <div class="container" id="Education">
-      <h1 id="CateName" style="text-align: center;">Education</h1><br><br>
-      <div class="ContentEdu">
-        <div class="row" id="Edu1">
-          <div class="col-md-7">
-            <img src="MainIndexPic/EducationHomepage/EducationLogo.png" alt="Education in computer" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
-          </div>
-          <div class="col-md-5" id="BriefEdu">
-            <h3 id="EduArticle">Top 6 Japanese Universities</h3>
-            <p id="EduIntro">Grab a coffee and enjoy the best tour around with the six most prestigious Japanese Universities</p>
-          </div>
-        </div>
-        <br><br>
-        <div class="row" id="Edu2">
-          <div class="col-md-7">
-            <img src="MainIndexPic/EducationHomepage/EducationBook.png" alt="Education in book" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
-          </div>
-          <div class="col-md-5" id="BriefEdu">
-            <h3 id="EduArticle">Top 6 Japanese Physics Book</h3>
-            <p id="EduIntro">What do you know about physics? Air and space? Quantum World? Heat? Curiousity leads you to our page. Let explore the physics world</p>
-          </div>
-        </div>
-        <br><br>
-        <div class="row" id="Edu3">
-          <div class="col-md-7">
-            <img src="MainIndexPic/EducationHomepage/EducationTest.png" alt="Education in Test Room" width="100%" height="400px" id="EduPic" style="object-fit: cover; opacity: 1;">
-          </div>
-          <div class="col-md-5" id="BriefEdu">
-            <h3 id="EduArticle">Top 6 Crazy Subject Test</h3>
-            <p id="EduIntro">Knowledge is superpower dominating the world. Even you are a maestro, you just touch the surface. Have a look at those monsters and see how much your talent is</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        <i class="fa fa-search"></i>
+    </button>
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <input type="text" class="form-control" placeholder="Search..">
           </div>
         </div>
       </div>
     </div>
-  </div>
 </body>
 </html>

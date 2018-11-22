@@ -28,9 +28,10 @@
     height: 50px;
 }
 /*Social Media Effect*/
-#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+#SocMed  {display: flex;flex-direction: row;}
+#facebook > #SocMedia:hover {color: #0041ce;}
+#twitter> #SocMedia:hover {color: #2df8ff;}
+#instagram > #SocMedia:hover {color: #e5143a;}
 #SocMedia {color: black;}
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
@@ -48,11 +49,12 @@
 
 /*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
+    /* Header */
+    #Header {height: 108px;}
+    .pad {padding-left: 4vw;}
+    .small {display: none;}
 /* Font for all */
 .col-lg-8 {line-height: 35px; font-size: 150%;}
-/* The Six Natures edit */
-#text {display: block; margin: auto; padding-left: 25vw; padding-top: 3vh; display: flex; align-self: baseline; font-size: 400%;font-family: TheSixNatures; font-weight: bold;}
-#LoName {display: flex; flex-direction: row;}
 /* Main Head for Section */
 .lead {font-weight: bold; text-align: center; font-size: 300%;}
 .mt-4 {font-weight: bold; font-size: 350%;}
@@ -64,7 +66,11 @@
 }
 #NavLarge {
     display: block;
-    padding-top: 1vh;
+    padding-top: 15px;
+}
+#cate {font-size: 150%;}
+.navbar {
+    height: 80px;
 }
 /* padding for objects */
 .container-fluid {
@@ -73,76 +79,26 @@
 }
 /* Social Media CSS */
 .fa {
-    font-size: 250%;
-}
-.nav {
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 80%;
-    transform: translate(0, -50%);
+    font-size: 112%;
 }
 /*Paragraph in the content*/
 #cont {font-size: 150%; line-height: 35px;}
 
 /* Footer */
-#Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
-#word {color: white; font-size: 220%;}
-#word1 {color: white; font-size: 200%; padding-top: 25px;}
+#Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative; line-height: 25px;}
+#word {color: white; font-size: 130%;}
+#word1 {color: white; font-size: 125%; padding-top: 25px;}
 }
-
-/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 960px) {
-    /* Font for all */
-    .col-lg-8 {line-height: 35px; font-size: 150%;}
-    /* The Six Natures edit */
-    #text {display: block; margin: auto; padding-left: 25vw; padding-top: 3vh; display: flex; align-self: baseline; font-size: 400%;font-family: TheSixNatures; font-weight: bold;}
-    #LoName {display: flex; flex-direction: row;}
-    /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 300%;}
-    .mt-4 {font-weight: bold; font-size: 350%;}
-    #suggested {font-weight: bold;}
-     /*Display compatible navigation bar*/
-     #NavSmall {
-        display: none;
-        padding-top: 1vh;
-    }
-    #NavLarge {
-        display: block;
-        padding-top: 1vh;
-    }
-    /* padding for objects */
-    .container-fluid {
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-     /* Social Media CSS */
-     .fa {
-        font-size: 250%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 30%;
-        left: 80%;
-        transform: translate(0, -50%);
-    }
-    /*Paragraph in the content*/
-    #cont {font-size: 150%; line-height: 35px;}
-    
-    /* Footer */
-    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
-    #word {color: white; font-size: 220%;}
-    #word1 {color: white; font-size: 200%; padding-top: 25px;}
-    }
 
     /*Medium tablet 768-960px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px) and (min-width: 769px) {
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
-    /* The Six Natures edit */
-    #text {display: block; margin: auto; padding-left: 15vw; padding-top: 4vh; display: flex; align-self: baseline; font-size: 200%;font-family: TheSixNatures; font-weight: bold;}
-    #LoName {display: flex; flex-direction: row;}
+    /*Things in the header */
+    #Logo {width: 97px; height: 70px;}
+    .pad {padding-left: 4vw;}
+    #Header {height: 70px;}
+    .small {display: none;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 300%;}
     .mt-4 {font-weight: bold; font-size: 350%;}
@@ -154,7 +110,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 1vh;
+        padding-top: 23px;
+    }
+    #cate {font-size: 100%;}
+    .navbar {
+        height: 80px;
     }
     /* padding for objects */
     .container-fluid {
@@ -163,22 +123,15 @@
     }
     /* Social Media CSS */
     .fa {
-        font-size: 250%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        left: 80%;
-        transform: translate(0, -50%);
+        font-size: 91%;
     }
     /*Paragraph in the content*/
     #cont {font-size: 150%; line-height: 35px;}
     
     /* Footer */
-    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative;}
-    #word {color: white; font-size: 220%;}
-    #word1 {color: white; font-size: 200%; padding-top: 25px;}
+    #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
+    #word1 {color: white; font-size: 125%; padding-top: 30px;}
+    #word {color: white; font-size: 130%;}
     }
 
     /*Small tablet 576-578px  --------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -186,7 +139,10 @@
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
     /*Header Logo */
-    #Logo {width: 139px; height: 100px;}
+    #Logo {width: 97px; height: 70px;}
+    .pad {padding-left: 4vw;}
+    #Header {height: 70px;}
+    .small {display: none;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 300%;}
     .mt-4 {font-weight: bold; font-size: 350%;}
@@ -198,7 +154,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 1vh;
+        padding-top: 15px;
+    }
+    #cate {font-size: 80%;}
+    .navbar {
+        height: 60px;
     }
     /* padding for objects */
     .container-fluid {
@@ -207,7 +167,7 @@
     }
      /* Social Media CSS */
      .fa {
-        font-size: 250%;
+        font-size: 91%;
     }
     .nav {
         margin: 0;
@@ -220,15 +180,18 @@
     #cont {font-size: 150%; line-height: 35px;}
     
      /* Footer */
-     #Footer {background-color: #0f4200; height: 100px;}
-     #word1 {color: white; font-size: 150%; padding-top: 3%;}
-     #word {color: white; font-size: 150%;}
+     #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
+    #word1 {color: white; font-size: 100%; padding-top: 25px;}
+    #word {color: white; font-size: 90%;}
     }
 
     /*Extra small tablet <576px  --------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
      /*Things in the header */
-     #Logo {width: 111px; height: 80px;}
+     #Logo {width: 78px; height: 56px;}
+     .pad {padding-left: 4vw;}
+     #Header {height: 70px;}
+     .large {display: none;}
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
     /* Navbar */
@@ -242,28 +205,23 @@
      /*Display compatible navigation bar*/
      #NavSmall {
         display: block;
-        padding-top: 1vh;
     }
     #NavLarge {
         display: none;
         padding-top: 1vh;
     }
+    .navbar {
+        height: 60px;
+    }
     /* Social Media CSS */
     .fa {
-        font-size: 150%;
-    }
-    .nav {
-        margin: 0;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(0, -50%);
+        font-size: 100%;
     }
     /*Paragraph in the content*/
     #cont {font-size: 150%; line-height: 35px;}
     
     /* Footer */
-    #Footer {background-color: #0f4200; height: 100px;}
-    #word1 {color: white; font-size: 150%; padding-top: 3%;}
-    #word {color: white; font-size: 150%;}
+    #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}
+    #word1 {color: white; font-size: 100%; padding-top: 25px;}
+    #word {color: white; font-size: 100%;}
     }

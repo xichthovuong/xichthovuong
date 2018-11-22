@@ -199,8 +199,8 @@
     .dropdown-toggle {background-color: #7cc400;}
     #NAV {font-size: 150%; font-family: Category;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 126%;}
-    .mt-4 {font-weight: bold; font-size: 147%;}
+    .lead {font-weight: bold; text-align: center; font-size: 76%;}
+    .mt-4 {font-weight: bold; font-size: 88%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -218,7 +218,7 @@
         font-size: 100%;
     }
     /*Paragraph in the content*/
-    #cont {font-size: 63%; line-height: 35px;}
+    #cont {font-size: 38%; line-height: 25px;}
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}

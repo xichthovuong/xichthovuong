@@ -28,6 +28,7 @@
     src: url(FontDownload/BonvenoCF.otf);
 }
 /*Social Media Effect*/
+#SocMed  {display: flex;flex-direction: row;}
 #SocMed > #facebook:hover {color: #0041ce!important; background-color: #d1ef9f!important;}
 #SocMed > #twitter:hover {color: #2df8ff; background-color: #d1ef9f;}
 #SocMed > #instagram:hover {color: #e5143a; background-color: #d1ef9f;}
@@ -49,6 +50,7 @@
 @media only screen and (min-width: 960px) {
     /* Header */
     #Header {height: 154px;}
+    .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -124,6 +126,7 @@
 @media only screen and (max-width: 960px) and (min-width: 769px) {
     /* Header */
     #Header {height: 154px;}
+    .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -203,6 +206,7 @@
     /*Things in the header */
     #Logo {width: 139px; height: 100px;}
     #Header {height: 100px;}
+    .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -282,6 +286,7 @@
     /*Things in the header */
     #Logo {width: 111px; height: 80px;}
     #Header {height: 100px;}
+    .large {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: block;

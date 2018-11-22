@@ -15,31 +15,114 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.css" type="text/css">
+    <link rel="stylesheet" href="OutLayIndex.css" type="text/css">
     <style type="text/css">
+      #SocMed {
+        display: flex;
+        flex-direction: row;
+      }
+      @media only screen and (min-width: 960px) {
+        .small {display: none;}
+      }
+      @media only screen and (min-width: 576px) {
+         .small {display: none;} 
+      }
+      @media only screen and (max-width: 576px) {
+        .large {display: none;}
+      }
     </style>
 </head>
 <body> 
-  <!--Manga-->
-  <div id="cate" class="container-fluid">
-  <nav class="navbar navbar-expand-sm" id="NavSmall">
-      <div class="dropdown">
-        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" id="CateCol">
-          CATEGORY
-        </button>
-        <div class="dropdown-menu" id="Drop">
-          <a class="dropdown-item" id="NAV" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
-          <a class="dropdown-item" id="NAV" href="#">Education</a>
-          <a class="dropdown-item" id="NAV" href="#">Style</a>
-          <a class="dropdown-item" id="NAV" href="#">Culture</a>
-          <a class="dropdown-item" id="NAV" href="#">Movies</a>
-          <a class="dropdown-item" id="NAV" href="#">Music</a>
-          <a class="dropdown-item" id="NAV" href="#">Blogs</a>
+  <nav class="navbar navbar-expand-sm large" id="Header">
+    <div class="w-75">
+        <a href="index.html" class="pl-3">
+            <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
+        </a>
+    </div>
+    
+    <!-- Navbar links -->
+    <ul class="navbar-nav pb-5" id="SocMed">
+      <li class="nav-item pr-4" id="search">
+          <i class="fa fa-search" data-toggle="modal" data-target="#myModal"></i>
+      </li>
+      <li id="facebook" class="nav-item pr-4"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+      <li id="twitter" class="nav-item pr-4"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+      <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+  </nav>
+<!--Phone-->
+  <nav class="navbar navbar-expand-sm small" id="Header">
+    <div class="w-25">
+      <a href="index.html" class="pl-3">
+        <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
+      </a>
+    </div>
+    
+    <!-- Navbar links -->
+    <ul class="navbar-nav pb-5" id="SocMed">
+      <li class="nav-item pr-3" id="search">
+        <i class="fa fa-search" data-toggle="modal" data-target="#myModal"></i>
+      </li>
+      <li id="facebook" class="nav-item pr-3"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+      <li id="twitter" class="nav-item pr-3"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+      <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+  </nav>
+  
+  <!-- Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <input type="text" class="form-control" placeholder="Search..">
         </div>
       </div>
-    </nav>
+    </div>
   </div>
-      
+
+  <div id="cate" class="container-fluid">
+      <nav class="navbar navbar-expand-sm" id="NavLarge">
+          <ul class="navbar-nav">
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html" id="CateLink">Anime&Manga&ensp;</a>
+              </li>
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="#" id="CateLink">Education &ensp;</a>
+              </li>
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="#" id="CateLink">Style &ensp;</a>
+              </li>
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="#" id="CateLink">Culture &ensp;</a>
+              </li>
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="#" id="CateLink">Movies &ensp;</a>
+              </li>
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="#" id="CateLink">Music &ensp;</a>
+              </li>
+              <li class="nav-item" id="category">
+                  <a class="nav-link" href="#" id="CateLink">Blogs</a>
+              </li>
+          </ul>
+      </nav>
+      <nav class="navbar navbar-expand-sm" id="NavSmall">
+        <div class="dropdown">
+          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+            CATEGORY
+          </button>
+          <div class="dropdown-menu" id="Drop">
+            <a class="dropdown-item" id="NAV" href="Manga-Anime/MangaWeb/MangaAnimeCate/MangaCate.html">Anime&Manga</a>
+            <a class="dropdown-item" id="NAV" href="#">Education</a>
+            <a class="dropdown-item" id="NAV" href="#">Style</a>
+            <a class="dropdown-item" id="NAV" href="#">Culture</a>
+            <a class="dropdown-item" id="NAV" href="#">Movies</a>
+            <a class="dropdown-item" id="NAV" href="#">Music</a>
+            <a class="dropdown-item" id="NAV" href="#">Blogs</a>
+          </div>
+        </div>
+      </nav>
+  </div>
      
 </body>
 </html>

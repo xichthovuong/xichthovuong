@@ -39,29 +39,41 @@
     <link rel="stylesheet" type="text/css" href="OutLayIndex.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm" id="Header">
+    <nav class="navbar navbar-expand-sm large" id="Header">
         <div class="w-75">
             <a href="index.html" class="pl-3">
                 <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
             </a>
         </div>
-        
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #7cc400;">
-            <i class="fa fa-bars"></i>
-        </button>
+            
+            <!-- Navbar links -->
+        <ul class="navbar-nav pb-5" id="SocMed">
+            <li class="nav-item pr-4" id="search">
+                <i class="fa fa-search" data-toggle="modal" data-target="#myModal"></i>
+            </li>
+            <li id="facebook" class="nav-item pr-4"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+            <li id="twitter" class="nav-item pr-4"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+            <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </nav>
+
+    <!--Phone-->
+    <nav class="navbar navbar-expand-sm small" id="Header">
+        <div class="w-25">
+            <a href="index.html" class="pl-3">
+            <img src="MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="214vw" height="154vh">
+            </a>
+        </div>
         
         <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="background-color: #efffe9;">
-            <ul class="navbar-nav" id="SocMed">
-                <li class="nav-item pr-5" id="search" data-toggle="modal" data-target="#myModal">
-                    <i class="fa fa-search"></i>
-                </li>
-                <li id="facebook" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
-                <li id="twitter" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
-                <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-        </div>
+        <ul class="navbar-nav pb-5" id="SocMed">
+            <li class="nav-item pr-3" id="search">
+                <i class="fa fa-search" data-toggle="modal" data-target="#myModal"></i>
+            </li>
+            <li id="facebook" class="nav-item pr-3"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+            <li id="twitter" class="nav-item pr-3"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+            <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+        </ul>
     </nav>
 
     <!-- Modal -->

@@ -25,9 +25,9 @@
     background-color: #efffe9;
 }
 /*Social Media Effect*/
-#facebook > a:hover {color: #0041ce; background-color: #d1ef9f;}
-#twitter > a:hover {color: #2df8ff; background-color: #d1ef9f;}
-#instagram > a:hover {color: #e5143a; background-color: #d1ef9f;}
+#facebook > a:hover {color: #0041ce;}
+#twitter > a:hover {color: #2df8ff;}
+#instagram > a:hover {color: #e5143a;}
 #SocMedia {color: black;}
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
@@ -44,6 +44,10 @@
 
 /*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
     /* The Six Natures edit */
     #text {font-size: 300%;font-family: TheSixNatures; font-weight: bold; text-align: center;}
     #Header {height: 130px;}
@@ -70,14 +74,19 @@
     #titleHead {font-size: 180%;}
     #view {font-size: 130%;}
 
-    /* Footer */
-    #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative; line-height: 25px;}
-    #word {color: white; font-size: 140%;}
-    #word1 {color: white; font-size: 150%; padding-top: 25px;}
+   /* Footer */
+   #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative; line-height: 25px;}
+   #word {color: white; font-size: 130%;}
+   #word1 {color: white; font-size: 125%; padding-top: 25px;}
 }
 
 /* Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px) and (min-width: 769px) {
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /* Header */
     #Header {height: 130px;}
     .navbar-nav {padding-left: 5%;}
     /*Display compatible navigation bar*/
@@ -107,12 +116,16 @@
 
     /* Footer */
     #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
-    #word1 {color: white; font-size: 140%; padding-top: 30px;}
+    #word1 {color: white; font-size: 125%; padding-top: 30px;}
     #word {color: white; font-size: 130%;}
 }
 
 /*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) and (min-width: 576px) {
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
     /*Things in the header */
     #Logo {width: 139px; height: 100px;}
     #Header {height: 130px;}
@@ -143,9 +156,9 @@
     #view {font-size: 100%;}
 
      /* Footer */
-    #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
-    #word1 {color: white; font-size: 120%; padding-top: 25px;}
-    #word {color: white; font-size: 100%;}
+     #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
+     #word1 {color: white; font-size: 100%; padding-top: 25px;}
+     #word {color: white; font-size: 90%;}
 }
 
 /* Small device 575px --------------------------------------------------------------------------------------*/
@@ -180,7 +193,7 @@
     #view {font-size: 100%;}
 
      /* Footer */
-    #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}
-    #word1 {color: white; font-size: 110%; padding-top: 25px;}
-    #word {color: white; font-size: 90%;}
+     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}
+    #word1 {color: white; font-size: 100%; padding-top: 25px;}
+    #word {color: white; font-size: 100%;}
  }

@@ -49,7 +49,7 @@
 /*Large PC 1000px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) {
     /* Header */
-    #Header {height: 154px;}
+    #Header {height: 108px;}
     .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -71,7 +71,7 @@
     }
     /* Social Media CSS */
     .fa {
-        font-size: 160%;
+        font-size: 112%;
     }
     /* Edit the picture and "The Sixnatures" word of header */
     #PicHead {
@@ -125,7 +125,7 @@
 /* Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px) and (min-width: 769px) {
     /* Header */
-    #Header {height: 154px;}
+    #Header {height: 108px;}
     .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -142,7 +142,7 @@
     }
     /* Social Media CSS */
     .fa {
-        font-size: 150%;
+        font-size: 105%;
     }
     /* padding for objects */
     .container-fluid {
@@ -204,8 +204,8 @@
 /*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) and (min-width: 576px) {
     /*Things in the header */
-    #Logo {width: 139px; height: 100px;}
-    #Header {height: 100px;}
+    #Logo {width: 97px; height: 70px;}
+    #Header {height: 70px;}
     .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -222,7 +222,7 @@
     }
     /* Social Media CSS */
     .fa {
-        font-size: 130%;
+        font-size: 91%;
     }
     /* padding for objects */
     .container-fluid {
@@ -284,8 +284,8 @@
 /* Small device 575px --------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 575px) {
     /*Things in the header */
-    #Logo {width: 111px; height: 80px;}
-    #Header {height: 100px;}
+    #Logo {width: 78px; height: 56px;}
+    #Header {height: 70px;}
     .large {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {

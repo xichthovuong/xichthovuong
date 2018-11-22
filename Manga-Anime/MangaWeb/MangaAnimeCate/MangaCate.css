@@ -25,9 +25,11 @@
     background-color: #efffe9;
 }
 /*Social Media Effect*/
-#facebook > a:hover {color: #0041ce;}
-#twitter > a:hover {color: #2df8ff;}
-#instagram > a:hover {color: #e5143a;}
+#SocMed  {display: flex;flex-direction: row;}
+#facebook > #SocMedia:hover {color: #0041ce;}
+#twitter> #SocMedia:hover {color: #2df8ff;}
+#instagram > #SocMedia:hover {color: #e5143a;}
+#search > #SocMedia:hover {color: #d1ef9f;}
 #SocMedia {color: black;}
 /* cate effect */
 #cate > a:link, a:visited, a:active {color: black;}
@@ -48,10 +50,9 @@
         padding-left: 5vw;
         padding-right: 5vw;
     }
-    /* The Six Natures edit */
-    #text {font-size: 300%;font-family: TheSixNatures; font-weight: bold; text-align: center;}
-    #Header {height: 130px;}
-    .navbar-nav {padding-left: 5%;}
+    /* Header */
+    #Header {height: 154px;}
+    .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -87,8 +88,8 @@
         padding-right: 5vw;
     }
     /* Header */
-    #Header {height: 130px;}
-    .navbar-nav {padding-left: 5%;}
+    #Header {height: 154px;}
+    .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: none;
@@ -128,7 +129,8 @@
     }
     /*Things in the header */
     #Logo {width: 139px; height: 100px;}
-    #Header {height: 130px;}
+    #Header {height: 100px;}
+    .small {display: none;}
     .navbar-nav {padding-left: 5%;}
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -165,7 +167,8 @@
 @media only screen and (max-width: 575px) {
     /*Things in the header */
     #Logo {width: 111px; height: 80px;}
-    #Header {height: 130px;}
+    #Header {height: 100px;}
+    .large {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
         display: block;

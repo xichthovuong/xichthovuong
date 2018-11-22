@@ -27,7 +27,6 @@
 .navbar {
     height: 50px;
 }
-#post {font-size: 70%;}
 /*Social Media Effect*/
 #SocMed  {display: flex;flex-direction: row;}
 #facebook > #SocMedia:hover {color: #0041ce;}
@@ -54,6 +53,7 @@
     #Header {height: 108px;}
     .pad {padding-left: 4vw;}
     .small {display: none;}
+    #post {font-size: 70%;}
 /* Font for all */
 .col-lg-8 {line-height: 35px; font-size: 150%;}
 /* Main Head for Section */
@@ -100,6 +100,7 @@
     .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
+    #post {font-size: 70%;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 168%;}
     .mt-4 {font-weight: bold; font-size: 196%;}
@@ -144,6 +145,7 @@
     .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
+    #post {font-size: 70%;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 168%;}
     .mt-4 {font-weight: bold; font-size: 196%;}
@@ -193,6 +195,7 @@
      .pad {padding-left: 4vw;}
      #Header {height: 70px;}
      .large {display: none;}
+     #post {font-size: 50%;}
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
     /* Navbar */
@@ -200,8 +203,8 @@
     .dropdown-toggle {background-color: #7cc400;}
     #NAV {font-size: 150%; font-family: Category;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 76%;}
-    .mt-4 {font-weight: bold; font-size: 88%;}
+    .lead {font-weight: bold; text-align: center; font-size: 61%;}
+    .mt-4 {font-weight: bold; font-size: 70%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -219,7 +222,7 @@
         font-size: 100%;
     }
     /*Paragraph in the content*/
-    #cont {font-size: 38%; line-height: 19px;}
+    #cont {font-size: 30%; line-height: 16px;}
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}

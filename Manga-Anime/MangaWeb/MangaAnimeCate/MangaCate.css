@@ -52,6 +52,7 @@
     }
     /* Header */
     #Header {height: 108px;}
+    .pad {padding-left: 4vw;}
     .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -89,6 +90,7 @@
     }
     /* Header */
     #Header {height: 108px;}
+    .pad {padding-left: 4vw;}
     .small {display: none;}
     /*Display compatible navigation bar*/
     #NavSmall {
@@ -129,6 +131,7 @@
     }
     /*Things in the header */
     #Logo {width: 97px; height: 70px;}
+    .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
     /*Display compatible navigation bar*/
@@ -166,6 +169,7 @@
 @media only screen and (max-width: 576px) {
     /*Things in the header */
     #Logo {width: 78px; height: 56px;}
+    .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .large {display: none;}
     /*Display compatible navigation bar*/

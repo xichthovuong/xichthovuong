@@ -56,8 +56,8 @@
 /* Font for all */
 .col-lg-8 {line-height: 35px; font-size: 150%;}
 /* Main Head for Section */
-.lead {font-weight: bold; text-align: center; font-size: 210%;}
-.mt-4 {font-weight: bold; font-size: 245%;}
+.lead {font-weight: bold; text-align: center; font-size: 168%;}
+.mt-4 {font-weight: bold; font-size: 196%;}
 #suggested {font-weight: bold;}
  /*Display compatible navigation bar*/
  #NavSmall {
@@ -82,7 +82,7 @@
     font-size: 112%;
 }
 /*Paragraph in the content*/
-#cont {font-size: 105%; line-height: 35px;}
+#cont {font-size: 84%; line-height: 35px;}
 
 /* Footer */
 #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative; line-height: 25px;}
@@ -100,8 +100,8 @@
     #Header {height: 70px;}
     .small {display: none;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 210%;}
-    .mt-4 {font-weight: bold; font-size: 245%;}
+    .lead {font-weight: bold; text-align: center; font-size: 168%;}
+    .mt-4 {font-weight: bold; font-size: 196%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -126,7 +126,7 @@
         font-size: 91%;
     }
     /*Paragraph in the content*/
-    #cont {font-size: 105%; line-height: 35px;}
+    #cont {font-size: 84%; line-height: 35px;}
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
@@ -144,8 +144,8 @@
     #Header {height: 70px;}
     .small {display: none;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 210%;}
-    .mt-4 {font-weight: bold; font-size: 245%;}
+    .lead {font-weight: bold; text-align: center; font-size: 168%;}
+    .mt-4 {font-weight: bold; font-size: 196%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -177,7 +177,7 @@
         transform: translate(0, -50%);
     }
     /*Paragraph in the content*/
-    #cont {font-size: 105%; line-height: 35px;}
+    #cont {font-size: 84%; line-height: 35px;}
     
      /* Footer */
      #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
@@ -199,8 +199,8 @@
     .dropdown-toggle {background-color: #7cc400;}
     #NAV {font-size: 150%; font-family: Category;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 210%;}
-    .mt-4 {font-weight: bold; font-size: 245%;}
+    .lead {font-weight: bold; text-align: center; font-size: 126%;}
+    .mt-4 {font-weight: bold; font-size: 147%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -218,7 +218,7 @@
         font-size: 100%;
     }
     /*Paragraph in the content*/
-    #cont {font-size: 105%; line-height: 35px;}
+    #cont {font-size: 63%; line-height: 35px;}
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}

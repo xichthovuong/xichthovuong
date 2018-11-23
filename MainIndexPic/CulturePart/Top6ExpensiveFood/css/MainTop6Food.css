@@ -27,6 +27,7 @@
 .navbar {
     height: 50px;
 }
+#suggested {font-size: 100%;}
 /*Social Media Effect*/
 #SocMed  {display: flex;flex-direction: row;}
 #facebook > #SocMedia:hover {color: #0041ce;}
@@ -59,7 +60,9 @@
 /* Main Head for Section */
 .lead {font-weight: bold; text-align: center; font-size: 168%;}
 .mt-4 {font-weight: bold; font-size: 196%;}
+/*Similar Article */
 #suggested {font-weight: bold;}
+#box {padding: 0 0 0 0;}
  /*Display compatible navigation bar*/
  #NavSmall {
     display: none;
@@ -190,7 +193,17 @@
 
     /*Extra small tablet <576px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 576px) {
-     /*Things in the header */
+     /*Display compatible navigation bar*/
+    #NavLarge {
+        display: none;
+    }
+    .navbar {
+        height: 60px;
+    }
+    .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
+    .dropdown-toggle {background-color: #7cc400;}
+    #NAV {font-size: 150%; font-family: Category;} 
+    /*Things in the header */
      #Logo {width: 78px; height: 56px;}
      .pad {padding-left: 4vw;}
      #Header {height: 70px;}
@@ -198,31 +211,16 @@
      #post {font-size: 50%;}
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
-    /* Navbar */
-    .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
-    .dropdown-toggle {background-color: #7cc400;}
-    #NAV {font-size: 150%; font-family: Category;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 61%;}
     .mt-4 {font-weight: bold; font-size: 70%;}
     #suggested {font-weight: bold;}
-     /*Display compatible navigation bar*/
-     #NavSmall {
-        display: block;
-    }
-    #NavLarge {
-        display: none;
-        padding-top: 1vh;
-    }
-    .navbar {
-        height: 60px;
-    }
     /* Social Media CSS */
     .fa {
         font-size: 100%;
     }
     /*Paragraph in the content*/
-    #cont {font-size: 30%; line-height: 16px;}
+    #cont {font-size: 50%; line-height: 16px;}
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}

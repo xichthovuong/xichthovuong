@@ -87,7 +87,95 @@
       <div class="modal-dialog">
           <div class="modal-content">
               <div class="modal-body">
-                  <input type="text" class="form-control" placeholder="Search..">
+                  <input type="text" id="mySearch" onkeyup="search()" class="form-control" placeholder="Search..">
+                  <!--Database-->
+                  <ul class="list-group" id="myMenu" style="list-style: none;">
+                    <li class="list-group-item list-group-item-action">
+                      <a href="#">Top 6 Japanese Festivals</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <a href="#">Top 6 Japanese Mindbending Movie</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <a href="#">Top 6 Japanese Come-Backs Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="../../../MainIndexPic/CulturePart/Top6ExpensiveFood/Top6ExpensiveFood.html">Top 6 Japanese Expensive Food</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Monsters Appeared in Japanese Culture</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Amazing Restaurants in Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese glorious mountain</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Come-backs Of Celebrity</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Difference Between Dragon Ball Z Manga And Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Introverted Characters In Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Crossdressing Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Universities</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Physics Book</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Crazy Subject Test</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Dress Style</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Room Style</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">TOP 6 JAPANESE DETECTIVE MOVIE</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">TOP 6 JAPANESE DOCUMENTARY MOVIE</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">TOP 6 JAPANESE ROMANTIC MOVIE</a>
+                    </li>
+                  </ul>
+                  <script>
+                      function search() {
+                        var input = document.getElementById("mySearch");
+                        var temp = input.value.toLowerCase();
+                        var ul = document.getElementById("myMenu");
+                        var li = [];
+                        li = ul.getElementsByTagName("li");
+                        var count = 0;
+                        if (temp.length == 0) {
+                          for (let i = 3; i < li.length; i++) {
+                            li[i].style.display= "none";
+                          }
+                          for (let i = 0; i < 3; i++) {
+                            li[i].style.display = "";
+                          }
+                        } else {
+                            for (let i = 0; i < li.length; i++) {
+                              a = li[i].getElementsByTagName("a")[0];
+                              if (a.innerHTML.toLowerCase().indexOf(temp) > -1 && count <= 6) {
+                                li[i].style.display = "";
+                                count++;
+                              } else {
+                                li[i].style.display = "none";
+                              }
+                            }
+                        }
+                      }
+                  </script>
               </div>
           </div>
       </div>

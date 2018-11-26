@@ -54,7 +54,7 @@
     #Header {height: 108px;}
     .pad {padding-left: 4vw;}
     .small {display: none;}
-    #post {font-size: 70%;}
+    #date {font-size: 56%;}
 /* Font for all */
 .col-lg-8 {line-height: 35px; font-size: 150%;}
 /* Main Head for Section */
@@ -103,7 +103,7 @@
     .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
-    #post {font-size: 70%;}
+    #date {font-size: 56%;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 168%;}
     .mt-4 {font-weight: bold; font-size: 196%;}
@@ -148,7 +148,7 @@
     .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
-    #post {font-size: 70%;}
+    #date {font-size: 56%;}
     /* Main Head for Section */
     .lead {font-weight: bold; text-align: center; font-size: 168%;}
     .mt-4 {font-weight: bold; font-size: 196%;}
@@ -208,7 +208,7 @@
      .pad {padding-left: 4vw;}
      #Header {height: 70px;}
      .large {display: none;}
-     #post {font-size: 50%;}
+     #date {font-size: 40%;}
     /* Font for all */
     .col-lg-8 {line-height: 35px; font-size: 150%;}
     /* Main Head for Section */

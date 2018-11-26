@@ -61,11 +61,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 15px;
+        padding-top: 10px;
     }
-    #cate {font-size: 150%;}
+    #cate {font-size: 113%;}
     .navbar {
-        height: 80px;
+        height: 60px;
     }
     /* Social Media CSS */
     .fa {
@@ -99,11 +99,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 23px;
+        padding-top: 14px;
     }
-    #cate {font-size: 100%;}
+    #cate {font-size: 75%;}
     .navbar {
-        height: 80px;
+        height: 60px;
     }
     /* The Six Natures edit */
     #text {font-size: 200%;font-family: TheSixNatures; font-weight: bold; text-align: center;}
@@ -141,11 +141,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 15px;
+        padding-top: 8px;
     }
-    #cate {font-size: 80%;}
+    #cate {font-size: 60%;}
     .navbar {
-        height: 60px;
+        height: 45px;
     }
     /* The Six Natures edit */
      #text {font-size: 150%;font-family: TheSixNatures; font-weight: bold;}
@@ -173,19 +173,15 @@
     #Header {height: 70px;}
     .large {display: none;}
     /*Display compatible navigation bar*/
-    #NavSmall {
-        display: block;
-    }
     #NavLarge {
         display: none;
-        padding-top: 1vh;
     }
     .navbar {
-        height: 60px;
+        height: 45px;
     }
     .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
     .dropdown-toggle {background-color: #7cc400;}
-    #NAV {font-size: 150%; font-family: Category;}
+    #NAV {font-size: 113%; font-family: Category;}
     /* The Six Natures */
     #text {font-size: 100%;font-family: TheSixNatures; font-weight: bold;}
     /* Social Media CSS */

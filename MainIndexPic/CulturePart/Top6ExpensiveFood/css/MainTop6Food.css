@@ -70,11 +70,11 @@
 }
 #NavLarge {
     display: block;
-    padding-top: 15px;
+    padding-top: 10px;
 }
-#cate {font-size: 150%;}
+#cate {font-size: 113%;}
 .navbar {
-    height: 80px;
+    height: 60px;
 }
 /* padding for objects */
 .container-fluid {
@@ -115,11 +115,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 23px;
+        padding-top: 14px;
     }
-    #cate {font-size: 100%;}
+    #cate {font-size: 75%;}
     .navbar {
-        height: 80px;
+        height: 60px;
     }
     /* padding for objects */
     .container-fluid {
@@ -160,11 +160,11 @@
     }
     #NavLarge {
         display: block;
-        padding-top: 15px;
+        padding-top: 8px;
     }
-    #cate {font-size: 80%;}
+    #cate {font-size: 60%;}
     .navbar {
-        height: 60px;
+        height: 45px;
     }
     /* padding for objects */
     .container-fluid {
@@ -198,11 +198,11 @@
         display: none;
     }
     .navbar {
-        height: 60px;
+        height: 45px;
     }
     .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
     .dropdown-toggle {background-color: #7cc400;}
-    #NAV {font-size: 150%; font-family: Category;} 
+    #NAV {font-size: 113%; font-family: Category;}
     /*Things in the header */
      #Logo {width: 78px; height: 56px;}
      .pad {padding-left: 4vw;}
